@@ -1,6 +1,13 @@
 form {
   display: flex;
   flex-direction: column;
-  width: 10rem;
-  max-width: 100%;
+
+  max-width: 90%;
+  margin: auto;
+}
+
+@media (min-width:1000px) {
+  form {
+    width: 10rem;
+  }
 }
