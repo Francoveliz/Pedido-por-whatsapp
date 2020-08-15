@@ -1,9 +1,12 @@
 form {
   display: flex;
   flex-direction: column;
-
   max-width: 90%;
   margin: auto;
+}
+
+button {
+  height: 3rem;
 }
 
 @media (min-width:1000px) {
