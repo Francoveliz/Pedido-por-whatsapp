@@ -7,17 +7,34 @@
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <!-- Reboot -->
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+  <!-- Master css -->
+  <link rel="stylesheet" href="/css/style.css" />
   <script defer src="ticket.js"></script>
   <title>pedido por whatsapp</title>
 </head>
 
 <body>
   <div class="ticket">
-    <p>
-      El monto total es de: <p id="monto-total"></p>
-    </p>
+    <h2>Detalles de pedido</h2>
+    <p>El monto total es de: </p>
+    <p id="monto-total"></p>
+    <p>vas a pagar con: </p>
+    <p id="txt-paga-con"></p>
+    <p>tu nombre es: </p>
+    <p id="txt-tu-nombre"></p>
+    <p>tu numero de whatsapp es: </p>
+    <p id="txt-numero-wp"></p>
+    <p>tus aclaraciones sobre el pedido son: </p>
+    <p id="txt-aclaraciones-pedido"></p>
+    <p>la direccion de entrega es: </p>
+    <p id="txt-dir-de-entrega"></p>
+    <p>las aclaraciones de la entrega son: </p>
+    <p id="txt-aclaraciones-entrega"></p>
+    <button id="btn-enviar-pedido">enviar pedido</button>
   </div>
+  <p id="test"></p>
   <a href="./index.html">Pagina principal</a>
 </body>
 

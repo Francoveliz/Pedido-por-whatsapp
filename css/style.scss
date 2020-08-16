@@ -23,6 +23,11 @@ button {
 
 .ticket {
   display: flex;
+  flex-direction: column;
+
+  p {
+    margin: 0.5rem 0;
+  }
 }
 
 @media (min-width:1000px) {

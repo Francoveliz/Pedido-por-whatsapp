@@ -1,0 +1,48 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 90%;
+  margin: auto;
+}
+
+input[type=text] {
+  height: 2rem;
+}
+
+button {
+  height: 3rem;
+}
+
+#monto-total {
+  width: 3rem;
+}
+
+.ticket {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ticket p {
+  margin: 0.5rem 0;
+}
+
+@media (min-width: 1000px) {
+  form {
+    width: 10rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
