@@ -1,3 +1,7 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -5,8 +9,20 @@ form {
   margin: auto;
 }
 
+input[type=text] {
+  height: 2rem;
+}
+
 button {
   height: 3rem;
+}
+
+#monto-total {
+  width: 3rem;
+}
+
+.ticket {
+  display: flex;
 }
 
 @media (min-width:1000px) {
