@@ -39,6 +39,22 @@ h3 {
   border-bottom: 1px solid grey;
 }
 
+.precio {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  label {
+    margin: 0;
+  }
+
+  input {
+    width: 3rem;
+    margin: 0;
+    margin-left: 2rem;
+  }
+}
+
 .description {
   font-style: italic;
 }
