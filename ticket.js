@@ -25,6 +25,8 @@ document.getElementById("txt-numero-wp").innerHTML = getParameterByName("numero-
 document.getElementById("txt-aclaraciones-pedido").innerHTML = getParameterByName("aclaraciones-pedido");
 document.getElementById("txt-dir-de-entrega").innerHTML = getParameterByName("dir-de-entrega");
 document.getElementById("txt-aclaraciones-entrega").innerHTML = getParameterByName("aclaraciones-entrega");
+document.getElementById("txt-forma-de-pago").innerHTML = getParameterByName("forma-de-pago");
+document.getElementById("txt-forma-de-envio").innerHTML = getParameterByName("forma-de-envio");
 
 
 const enviarPedido = document.getElementById("btn-enviar-pedido");
