@@ -6,19 +6,33 @@ function getParameterByName(name) {
 }
 
 
-const montoTotal = document.getElementById("monto-total");
+
 
 let items = {
-  muzarellaChica: 200,
-  muzarellaGrande: 300,
-  muzarellaJamonChica: 250,
-  muzarellaJamonGrande: 350,
-  americanaChica: 375,
-  americanaGrande: 450,
-  verduraChica: 350,
-  verduraGrande: 415
+  "muzarellaChica": 200,
+  "muzarellaGrande": 300,
+  "muzarellaJamonChica": 250,
+  "muzarellaJamonGrande": 350,
+  "americanaChica": 375,
+  "americanaGrande": 450,
+  "verduraChica": 350,
+  "verduraGrande": 415
 };
 
+let montoTotalTxt = 0
+
+for (let item in items) {
+  if (getParameterByName(item) > 0) {
+    montoTotalTxt += items[item] * getParameterByName(item);
+    console.log("hola");
+    console.log(montoTotalTxt);
+  }
+}
+
+
+const montoTotal = document.getElementById("monto-total");
+
+montoTotal.innerHTML = montoTotalTxt;
 document.getElementById("txt-paga-con").innerHTML = getParameterByName("paga-con");
 document.getElementById("txt-tu-nombre").innerHTML = getParameterByName("tu-nombre");
 document.getElementById("txt-numero-wp").innerHTML = getParameterByName("numero-wp");
