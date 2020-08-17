@@ -24,8 +24,6 @@ let montoTotalTxt = 0
 for (let item in items) {
   if (getParameterByName(item) > 0) {
     montoTotalTxt += items[item] * getParameterByName(item);
-    console.log("hola");
-    console.log(montoTotalTxt);
   }
 }
 
@@ -45,7 +43,6 @@ document.getElementById("txt-forma-de-envio").innerHTML = getParameterByName("fo
 
 const enviarPedido = document.getElementById("btn-enviar-pedido");
 let link = "https://wa.me/541166969916?text=";
-let test = document.getElementById("test");
 
 enviarPedido.addEventListener("click", () => {
   let urlPedido = window.location.href;

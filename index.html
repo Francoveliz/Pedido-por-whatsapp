@@ -5,9 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <!-- fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap"
-    rel="stylesheet">
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
   <!-- Reboot -->
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
   <!-- Master css -->
@@ -17,121 +16,157 @@
 </head>
 
 <body>
-  <h2>HOLA, SOMOS PEDIDO DIRECTO</h2>
-  <p>Este es un ejemplo de como quedaría tu propia aplicación para tomar pedidos on line, sin intermediarios. Probala!
-    Hacé un pedido hasta el final y vas a ver lo rápido y ágil que es.</p>
-  <hr>
+  <img class="img-header" src="img/header.jpg" alt="">
+  <h1>boa pizza</h1>
+  <div class="p__como-funciona">
+    <h3>¿COMO FUNCION LA APP?</h3>
+    <p>Simplemente elegi los productos que
+      quieras comprar, la forma de envio, la
+      forma en que queres pagar y rellena el
+      formulario con tus datos, una vez que
+      tengas todo listo, envia la informacion para
+      hacer el ticket de compra, luego el pedido
+      se envia directamente por whatsapp.
+    </p>
+  </div>
+
   <form id="enviar" action="./ticket.html">
-    <h2>Pizzas</h2>
+    <h2 class="category-title">Pizzas</h2>
     <!-- muzarella -->
     <div class="item">
       <h3>Muzarella</h3>
-      <p class="descripcion">Salsa de tomate, muzzarella y aceitunas.</p>
-      <div class="cantidades-container">
-        <div class="precio">
-          <label for="muzarellaChica">chica - $200</label>
-          <input type="number" name="muzarellaChica" id="muzarellaChica"><br>
-        </div>
-      </div>
-      <div class="cantidades-container">
-        <div class="precio">
-          <label for="muzarellaGrande">Grande - $300</label>
-          <input type="number" name="muzarellaGrande" id="muzarellaGrande"><br>
-        </div>
-      </div>
-    </div>
+      <p class="item__description">Salsa de tomate, muzzarella y aceitunas.</p>
+      <div class="selector__container">
 
-    <!-- muzarella y jamon -->
-    <div class="item">
-      <h3>Muzarella y jamon</h3>
-      <p class="descripcion">Salsa de tomates, muzzarella, jamón, orégano y aceitunas verdes.</p>
-      <div class="cantidades-container">
-        <div class="precio">
-          <label for="muzarellaJamonChica">chica - $250</label>
-          <input type="number" name="muzarellaJamonChica" id="muzarellaJamonChica"><br>
-        </div>
-      </div>
-      <div class="cantidades-container">
-        <div class="precio">
-          <label for="muzarellaJamonGrande">Grande - $350</label>
-          <input type="number" name="muzarellaJamonGrande" id="muzarellaJamonGrande"><br>
-        </div>
-      </div>
-    </div>
+        <div class="selector">
 
-    <!-- Pizza americana -->
-    <div class="item">
-      <h3>Pizza americana</h3>
-      <p class="descripcion">Salsa de tomate, muzzarella, jamón, huevo frito o duro y orégano.</p>
-      <div class="cantidades-container">
-        <div class="precio">
-          <label for="americanaChica">chica - $375</label>
-          <input type="number" name="americanaChica" id="americanaChica"><br>
-        </div>
-      </div>
-      <div class="cantidades-container">
-        <div class="precio">
-          <label for="americanaGrande">Grande - $450</label>
-          <input type="number" name="americanaGrande" id="americanaGrande"><br>
-        </div>
-      </div>
-    </div>
+          <p class="selector__name">Muzarella Chica - $200</p>
 
-    <!-- Pizza de verdura -->
-    <div class="item">
-      <h3>Pizza de verdura</h3>
-      <p class="descripcion">Salsa de tomate, acelga, salsa blanca, provolone y morrón.</p>
-      <div class="cantidades-container">
-        <div class="precio">
-          <label for="verduraChica">chica - $350</label>
-          <input type="number" name="verduraChica" id="verduraChica"><br>
-        </div>
-      </div>
-      <div class="cantidades-container">
-        <div class="precio">
-          <label for="verduraGrande">Grande - $415</label>
-          <input type="number" name="verduraGrande" id="verduraGrande"><br>
-        </div>
-      </div>
-    </div>
+          <div class="selector__contador">
+            <input class="selector__input" type="number" name="muzarellaChica" id="muzarellaChica">
+            <div class="selector__btns">
+              <button type="button" class="selector__mas"><i class="fas fa-plus"></i></button>
+              <button type="button" class="selector__menos"><i class="fas fa-minus"></i></button>
+            </div>
+          </div>
 
-    <h2>LOS PEDIDOS TE LLEGAN POR WHATSAPP</h2>
-    <p>Comprobalo ahora mismo, simulá que pedís algo, apretá "siguiente" y continuá hasta el final.
-    </p>
-    <!-- opciones de entrega -->
-    <div class="opciones-de-entrega">
-      <p>Seleccioná las opciones de entrega:</p>
-      <label for="delivery">delivery
-        <input type="radio" name="forma-de-envio" id="delivery" value="delivery">
-      </label>
-      <label for="lo-retiro">lo retiro
-        <input type="radio" name="forma-de-envio" id="lo-retiro" value="lo-retiro">
-      </label>
-    </div>
-    <br><br>
-    <!-- opciones de pago -->
-    <div class="opciones-de-pago">
-      <p>Seleccioná las opciones de pago:</p>
-      <label for="efectivo">efectivo
-        <input type="radio" name="forma-de-pago" id="efectivo" value="efectivo">
-      </label>
-      <label for="mercado-pago">mercado pago
-        <input type="radio" name="forma-de-pago" id="mercado-pago" value="mercado-pago">
-      </label>
-    </div>
-    <br>
-    <br>
-    <input type="number" name="paga-con" id="paga-con" placeholder="Paga con $"><br>
-    <input type="text" name="tu-nombre" id="tu-nombre" placeholder="tu nombre"><br>
-    <input type="number" name="numero-wp" id="numero-wp" placeholder="numero de whatsapp"><br>
-    <input type="text" name="aclaraciones-pedido" id="aclaraciones-pedido"
-      placeholder="aclaraciones sobre el pedido"><br>
-    <input type="text" name="dir-de-entrega" id="dir-de-entrega" placeholder="direccion de entrega"><br>
-    <input type="text" name="calles" id="calles" placeholder="entre calles"><br>
-    <input type="text" name="aclaraciones-entrega" id="aclaraciones-entrega"
-      placeholder="aclaraciones(ejemplo:segundo timbre)"><br>
-    <!-- boton enviar -->
-    <button type="submit">enviar</button>
+        </div>
+
+
+        <div class="selector">
+
+          <p class="selector__name">Muzarella Grande -
+            $300</p>
+
+          <div class="selector__contador">
+            <input type="number" name="muzarellaGrande" id="muzarellaGrande">
+
+            <div class="selector__btns">
+              <button type="button" class="selector__mas">
+                <i class="fas fa-plus"></i>
+              </button>
+              <button type="button" class="selector__menos">
+                <i class="fas fa-minus"></i>
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- muzarella y jamon -->
+      <div class="item">
+        <h3>Muzarella y jamon</h3>
+        <p class="item__description">Salsa de tomates, muzzarella, jamón, orégano y aceitunas verdes.</p>
+        <div class="selector">
+          <div class="precio">
+            <p for="muzarellaJamonChica">chica - $250</p>
+            <input type="number" name="muzarellaJamonChica" id="muzarellaJamonChica"><br>
+          </div>
+        </div>
+        <div class="selector">
+          <div class="precio">
+            <p for="muzarellaJamonGrande">Grande - $350</p>
+            <input type="number" name="muzarellaJamonGrande" id="muzarellaJamonGrande"><br>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pizza americana -->
+      <div class="item">
+        <h3>Pizza americana</h3>
+        <p class="item__description">Salsa de tomate, muzzarella, jamón, huevo frito o duro y orégano.</p>
+        <div class="selector">
+          <div class="precio">
+            <p for="americanaChica">chica - $375</p>
+            <input type="number" name="americanaChica" id="americanaChica"><br>
+          </div>
+        </div>
+        <div class="selector">
+          <div class="precio">
+            <p for="americanaGrande">Grande - $450</p>
+            <input type="number" name="americanaGrande" id="americanaGrande"><br>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pizza de verdura -->
+      <div class="item">
+        <h3>Pizza de verdura</h3>
+        <p class="item__description">Salsa de tomate, acelga, salsa blanca, provolone y morrón.</p>
+        <div class="selector">
+          <div class="precio">
+            <p for="verduraChica">chica - $350</p>
+            <input type="number" name="verduraChica" id="verduraChica"><br>
+          </div>
+        </div>
+        <div class="selector">
+          <div class="precio">
+            <p for="verduraGrande">Grande - $415</p>
+            <input type="number" name="verduraGrande" id="verduraGrande"><br>
+          </div>
+        </div>
+      </div>
+
+      <h2>LOS PEDIDOS TE LLEGAN POR WHATSAPP</h2>
+      <p>Comprobalo ahora mismo, simulá que pedís algo, apretá "siguiente" y continuá hasta el final.
+      </p>
+      <!-- opciones de entrega -->
+      <div class="opciones-de-entrega">
+        <p>Seleccioná las opciones de entrega:</p>
+        <label for="delivery">delivery
+          <input type="radio" name="forma-de-envio" id="delivery" value="delivery">
+        </label>
+        <label for="lo-retiro">lo retiro
+          <input type="radio" name="forma-de-envio" id="lo-retiro" value="lo-retiro">
+        </label>
+      </div>
+      <br><br>
+      <!-- opciones de pago -->
+      <div class="opciones-de-pago">
+        <p>Seleccioná las opciones de pago:</p>
+        <label for="efectivo">efectivo
+          <input type="radio" name="forma-de-pago" id="efectivo" value="efectivo">
+        </label>
+        <label for="mercado-pago">mercado pago
+          <input type="radio" name="forma-de-pago" id="mercado-pago" value="mercado-pago">
+        </label>
+      </div>
+      <br>
+      <br>
+      <input type="number" name="paga-con" id="paga-con" placeholder="Paga con $"><br>
+      <input type="text" name="tu-nombre" id="tu-nombre" placeholder="tu nombre"><br>
+      <input type="number" name="numero-wp" id="numero-wp" placeholder="numero de whatsapp"><br>
+      <input type="text" name="aclaraciones-pedido" id="aclaraciones-pedido"
+        placeholder="aclaraciones sobre el pedido"><br>
+      <input type="text" name="dir-de-entrega" id="dir-de-entrega" placeholder="direccion de entrega"><br>
+      <input type="text" name="calles" id="calles" placeholder="entre calles"><br>
+      <input type="text" name="aclaraciones-entrega" id="aclaraciones-entrega"
+        placeholder="aclaraciones(ejemplo:segundo timbre)"><br>
+      <!-- boton enviar -->
+      <button type="submit">enviar</button>
   </form>
   <br><br><br><br><br>
 
