@@ -33,142 +33,192 @@
   <form id="enviar" action="./ticket.html">
     <h2 class="category-title">Pizzas</h2>
     <!-- muzarella -->
-    <div class="item">
-      <h3>Muzarella</h3>
-      <p class="item__description">Salsa de tomate, muzzarella y aceitunas.</p>
-      <div class="selector__container">
-
-        <div class="selector">
-
-          <p class="selector__name">Muzarella Chica - $200</p>
-
-          <div class="selector__contador">
-            <input class="selector__input" type="number" name="muzarellaChica" id="muzarellaChica">
-            <div class="selector__btns">
-              <button type="button" class="selector__mas"><i class="fas fa-plus"></i></button>
-              <button type="button" class="selector__menos"><i class="fas fa-minus"></i></button>
+    <div class="item__container">
+      <div class="item">
+        <h3>Muzarella</h3>
+        <p class="item__description">Salsa de tomate, muzzarella y aceitunas.</p>
+        <div class="selector__container">
+          <div class="selector">
+            <p class="selector__name">Muzarella Chica - $200</p>
+            <div class="selector__contador">
+              <input class="selector__input" type="number" name="muzarellaChica" id="muzarellaChica">
+              <div class="selector__btns">
+                <button type="button" class="selector__mas"><i class="fas fa-plus"></i></button>
+                <button type="button" class="selector__menos"><i class="fas fa-minus"></i></button>
+              </div>
             </div>
           </div>
-
-        </div>
-
-
-        <div class="selector">
-
-          <p class="selector__name">Muzarella Grande -
-            $300</p>
-
-          <div class="selector__contador">
-            <input type="number" name="muzarellaGrande" id="muzarellaGrande">
-
-            <div class="selector__btns">
-              <button type="button" class="selector__mas">
-                <i class="fas fa-plus"></i>
-              </button>
-              <button type="button" class="selector__menos">
-                <i class="fas fa-minus"></i>
-              </button>
+          <div class="selector">
+            <p class="selector__name">Muzarella Grande -
+              $300</p>
+            <div class="selector__contador">
+              <input type="number" name="muzarellaGrande" id="muzarellaGrande">
+              <div class="selector__btns">
+                <button type="button" class="selector__mas">
+                  <i class="fas fa-plus"></i>
+                </button>
+                <button type="button" class="selector__menos">
+                  <i class="fas fa-minus"></i>
+                </button>
+              </div>
             </div>
-
           </div>
         </div>
-
       </div>
-
 
       <!-- muzarella y jamon -->
       <div class="item">
+        <!-- item title -->
         <h3>Muzarella y jamon</h3>
+        <!-- item descripcion -->
         <p class="item__description">Salsa de tomates, muzzarella, jamón, orégano y aceitunas verdes.</p>
-        <div class="selector">
-          <div class="precio">
-            <p for="muzarellaJamonChica">chica - $250</p>
-            <input type="number" name="muzarellaJamonChica" id="muzarellaJamonChica"><br>
+        <div class="selector__container">
+          <div class="selector">
+            <!-- selector name chica -->
+            <p class="selector__name">Muzarella y Jamón Chica - $250</p>
+            <div class="selector__contador">
+              <!-- input chica -->
+              <input type="number" name="muzarellaJamonChica" id="muzarellaJamonChica">
+              <div class="selector__btns">
+                <button type="button" class="selector__mas"><i class="fas fa-plus"></i></button>
+                <button type="button" class="selector__menos"><i class="fas fa-minus"></i></button>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="selector">
-          <div class="precio">
-            <p for="muzarellaJamonGrande">Grande - $350</p>
-            <input type="number" name="muzarellaJamonGrande" id="muzarellaJamonGrande"><br>
+          <div class="selector">
+            <!-- selector name grande -->
+            <p class="selector__name">Muzarella y Jamón Grande -
+              $350</p>
+            <div class="selector__contador">
+              <!-- input grande -->
+              <input type="number" name="muzarellaJamonGrande" id="muzarellaJamonGrande">
+              <div class="selector__btns">
+                <button type="button" class="selector__mas">
+                  <i class="fas fa-plus"></i>
+                </button>
+                <button type="button" class="selector__menos">
+                  <i class="fas fa-minus"></i>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- Pizza americana -->
       <div class="item">
+        <!-- item title -->
         <h3>Pizza americana</h3>
+        <!-- item descripcion -->
         <p class="item__description">Salsa de tomate, muzzarella, jamón, huevo frito o duro y orégano.</p>
-        <div class="selector">
-          <div class="precio">
-            <p for="americanaChica">chica - $375</p>
-            <input type="number" name="americanaChica" id="americanaChica"><br>
+        <div class="selector__container">
+          <div class="selector">
+            <!-- selector name chica -->
+            <p class="selector__name">Pizza Americana Chica - $375</p>
+            <div class="selector__contador">
+              <!-- input chica -->
+              <input type="number" name="americanaChica" id="americanaChica">
+              <div class="selector__btns">
+                <button type="button" class="selector__mas"><i class="fas fa-plus"></i></button>
+                <button type="button" class="selector__menos"><i class="fas fa-minus"></i></button>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="selector">
-          <div class="precio">
-            <p for="americanaGrande">Grande - $450</p>
-            <input type="number" name="americanaGrande" id="americanaGrande"><br>
+          <div class="selector">
+            <!-- selector name grande -->
+            <p class="selector__name">Pizza Americana Grande -
+              $450</p>
+            <div class="selector__contador">
+              <!-- input grande -->
+              <input type="number" name="americanaGrande" id="americanaGrande">
+              <div class="selector__btns">
+                <button type="button" class="selector__mas">
+                  <i class="fas fa-plus"></i>
+                </button>
+                <button type="button" class="selector__menos">
+                  <i class="fas fa-minus"></i>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
 
       <!-- Pizza de verdura -->
       <div class="item">
+        <!-- item title -->
         <h3>Pizza de verdura</h3>
-        <p class="item__description">Salsa de tomate, acelga, salsa blanca, provolone y morrón.</p>
-        <div class="selector">
-          <div class="precio">
-            <p for="verduraChica">chica - $350</p>
-            <input type="number" name="verduraChica" id="verduraChica"><br>
+        <!-- item descripcion -->
+        <p class="item__description">Salsa de tomate, muzzarella, jamón, huevo frito o duro y orégano.</p>
+        <div class="selector__container">
+          <div class="selector">
+            <!-- selector name chica -->
+            <p class="selector__name">Pizza de verdura Chica - $350</p>
+            <div class="selector__contador">
+              <!-- input chica -->
+              <input type="number" name="verduraChica" id="verduraChica">
+              <div class="selector__btns">
+                <button type="button" class="selector__mas"><i class="fas fa-plus"></i></button>
+                <button type="button" class="selector__menos"><i class="fas fa-minus"></i></button>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="selector">
-          <div class="precio">
-            <p for="verduraGrande">Grande - $415</p>
-            <input type="number" name="verduraGrande" id="verduraGrande"><br>
+          <div class="selector">
+            <!-- selector name grande -->
+            <p class="selector__name">Pizza de verdura Grande -
+              $415</p>
+            <div class="selector__contador">
+              <!-- input grande -->
+              <input type="number" name="verduraGrande" id="verduraGrande">
+              <div class="selector__btns">
+                <button type="button" class="selector__mas">
+                  <i class="fas fa-plus"></i>
+                </button>
+                <button type="button" class="selector__menos">
+                  <i class="fas fa-minus"></i>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
-      <h2>LOS PEDIDOS TE LLEGAN POR WHATSAPP</h2>
-      <p>Comprobalo ahora mismo, simulá que pedís algo, apretá "siguiente" y continuá hasta el final.
-      </p>
-      <!-- opciones de entrega -->
-      <div class="opciones-de-entrega">
-        <p>Seleccioná las opciones de entrega:</p>
-        <label for="delivery">delivery
-          <input type="radio" name="forma-de-envio" id="delivery" value="delivery">
-        </label>
+    </div>
+    <!-- opciones de entrega -->
+    <div class="opciones">
+      <p>Seleccioná las opciones de entrega:</p>
+      <div class="opciones__radios">
+        <label for="delivery">delivery </label>
+        <input type="radio" name="forma-de-envio" id="delivery" value="delivery">
         <label for="lo-retiro">lo retiro
           <input type="radio" name="forma-de-envio" id="lo-retiro" value="lo-retiro">
         </label>
       </div>
-      <br><br>
-      <!-- opciones de pago -->
-      <div class="opciones-de-pago">
-        <p>Seleccioná las opciones de pago:</p>
-        <label for="efectivo">efectivo
-          <input type="radio" name="forma-de-pago" id="efectivo" value="efectivo">
-        </label>
-        <label for="mercado-pago">mercado pago
-          <input type="radio" name="forma-de-pago" id="mercado-pago" value="mercado-pago">
-        </label>
+    </div>
+    <!-- opciones de pago -->
+    <div class="opciones">
+      <p>Seleccioná las opciones de pago:</p>
+      <div class="opciones__radios">
+        <label for="efectivo">efectivo</label>
+        <input type="radio" name="forma-de-pago" id="efectivo" value="efectivo">
+        <label for="mercado-pago">mercado pago </label>
+        <input type="radio" name="forma-de-pago" id="mercado-pago" value="mercado-pago">
       </div>
-      <br>
-      <br>
-      <input type="number" name="paga-con" id="paga-con" placeholder="Paga con $"><br>
-      <input type="text" name="tu-nombre" id="tu-nombre" placeholder="tu nombre"><br>
-      <input type="number" name="numero-wp" id="numero-wp" placeholder="numero de whatsapp"><br>
-      <input type="text" name="aclaraciones-pedido" id="aclaraciones-pedido"
-        placeholder="aclaraciones sobre el pedido"><br>
-      <input type="text" name="dir-de-entrega" id="dir-de-entrega" placeholder="direccion de entrega"><br>
-      <input type="text" name="calles" id="calles" placeholder="entre calles"><br>
-      <input type="text" name="aclaraciones-entrega" id="aclaraciones-entrega"
-        placeholder="aclaraciones(ejemplo:segundo timbre)"><br>
-      <!-- boton enviar -->
-      <button type="submit">enviar</button>
+    </div>
+
+
+    <input type="number" name="paga-con" id="paga-con" placeholder="Paga con $">
+    <input type="text" name="tu-nombre" id="tu-nombre" placeholder="tu nombre">
+    <input type="number" name="numero-wp" id="numero-wp" placeholder="numero de whatsapp">
+    <input type="text" name="aclaraciones-pedido" id="aclaraciones-pedido" placeholder="aclaraciones sobre el pedido">
+    <input type="text" name="dir-de-entrega" id="dir-de-entrega" placeholder="direccion de entrega">
+    <input type="text" name="calles" id="calles" placeholder="entre calles">
+    <input type="text" name="aclaraciones-entrega" id="aclaraciones-entrega"
+      placeholder="aclaraciones(ejemplo:segundo timbre)">
+    <!-- boton enviar -->
+    <button type="submit">enviar</button>
   </form>
-  <br><br><br><br><br>
+
 
 
   </div>

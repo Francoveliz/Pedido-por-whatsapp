@@ -48,8 +48,12 @@ h1 {
 form {
   display: flex;
   flex-direction: column;
-  max-width: 90%;
+
   margin: auto;
+
+  h2 {
+    margin-bottom: 2.5rem;
+  }
 
   input[type=text] {
     height: 2rem;
@@ -61,62 +65,80 @@ form {
 
 }
 
-.item {
-  margin-bottom: 3rem;
+.item__container {
+  display: flex;
+  flex-direction: column;
 
-  h3 {
-    font-weight: 600;
-    font-size: 1.5rem;
-    margin: 0;
-  }
+  .item {
+    margin: 0 $padMobile;
+    margin-bottom: 4rem;
+    border-bottom: 1px solid $hr;
+    padding-bottom: 1rem;
 
-  .item__description {
-    font-style: italic;
+    h3 {
+      font-weight: 600;
+      font-size: 1.5rem;
+      margin: 0;
+      text-transform: capitalize;
+    }
 
-  }
+    .item__description {
+      font-style: italic;
+      margin-bottom: 3rem;
 
-  .selector__container {
-    display: flex;
-    flex-direction: column;
+    }
 
-    .selector {
+    .selector__container {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 2rem;
+      flex-direction: column;
 
-      .selector__name {
-        font-style: italic;
-        font-weight: 500;
-        margin: 0;
-        font-size: 1rem;
-      }
-
-      .selector__contador {
+      .selector {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
 
-        input {
-          width: 4rem;
-          height: 4rem;
-          border-radius: $borderRadius;
-          border: 1px solid $primary;
+        .selector__name {
+          font-style: italic;
+          font-weight: 500;
+          margin: 0;
+          font-size: 1rem;
+          text-transform: capitalize;
         }
 
-        .selector__btns {
+        .selector__contador {
           display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          margin-left: .4rem;
 
-          button {
-            height: calc(50% - .2rem);
-            width: 2rem;
-            color: $white;
-            background: $primary;
-            border: none;
+          input {
+            width: 4rem;
+            height: 4rem;
             border-radius: $borderRadius;
+            border: 1px solid $primary;
+            text-align: center;
+            font-size: 1.5rem;
+            padding: .7rem;
+            margin-left: .8rem;
 
 
+          }
+
+
+          .selector__btns {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-left: .4rem;
+
+            button {
+              height: calc(50% - .2rem);
+              width: 2rem;
+              color: $white;
+              background: $primary;
+              border: none;
+              border-radius: $borderRadius;
+
+
+            }
           }
         }
       }
@@ -124,8 +146,29 @@ form {
   }
 }
 
+.opciones {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    width: 45%;
+    height: 3rem;
+    background: $primary;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
 
 
+  }
+
+  input {
+    opacity: 0;
+
+  }
+}
 
 .precio {
   display: flex;
