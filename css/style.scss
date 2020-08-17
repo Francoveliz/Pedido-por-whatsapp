@@ -90,7 +90,7 @@ h1 {
         .selector__contador {
           display: flex;
 
-          input {
+          .item__input {
             width: 4rem;
             height: 4rem;
             border-radius: $borderRadius;
@@ -99,6 +99,7 @@ h1 {
             font-size: 1.5rem;
             padding: .7rem;
             margin-left: .8rem;
+            pointer-events: none;
 
 
           }
