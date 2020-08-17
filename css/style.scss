@@ -45,25 +45,6 @@ h1 {
 
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-
-  margin: auto;
-
-  h2 {
-    margin-bottom: 2.5rem;
-  }
-
-  input[type=text] {
-    height: 2rem;
-  }
-
-  button {
-    height: 3rem;
-  }
-
-}
 
 .item__container {
   display: flex;
@@ -146,53 +127,92 @@ form {
   }
 }
 
-.opciones {
-  display: flex;
-  flex-direction: column;
+.opciones__container {
+  margin: 0 $padMobile;
+  border-bottom: 1px solid $hr;
+  margin-bottom: 3rem;
 
-  label {
-    width: 45%;
-    height: 3rem;
-    background: $primary;
-    color: $white;
+  .opciones {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+
+    margin-bottom: 4rem;
+
+    p {
+      text-align: center;
+      font-size: 1.125rem;
+      margin-bottom: 2rem;
+    }
+
+    .opciones__radios {
+      display: flex;
+      justify-content: space-between;
+
+
+      input {
+        display: none;
+      }
+
+      label {
+        width: calc(50% - .5rem);
+        height: 3rem;
+        display: block;
+        background: none;
+        border: 1px solid $primary;
+        border-radius: $borderRadius;
+        color: $primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+        font-weight: 600;
+      }
+
+      input[type="radio"]:checked+label {
+        background: $primary;
+        color: $white;
+        box-shadow: 0px 0px 2px $primary;
+      }
+
+    }
+  }
+}
+
+form {
+  margin: 0 $padMobile;
+  margin-bottom: 3rem;
+
+  .datos-personales {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+
+    input {
+      border: 1px solid $primary;
+      border-radius: $borderRadius;
+      height: 2.5rem;
+      padding: 0 1rem;
+      margin-bottom: 2rem;
+
+      &::placeholder {
+        font-style: italic;
+      }
+    }
+  }
+
+  .btn__submit {
+    width: 100%;
+    height: 4rem;
+    border: none;
+    border-radius: $borderRadius;
+    font-weight: 700;
+    background: $cta;
+    color: $white;
     text-align: center;
-    cursor: pointer;
+    line-height: 0;
 
-
-  }
-
-  input {
-    opacity: 0;
-
-  }
-}
-
-.precio {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-bottom: .5rem;
-
-
-
-}
-
-
-
-.ticket {
-  display: flex;
-  flex-direction: column;
-
-  p {
-    margin: 0.5rem 0;
-  }
-}
-
-@media (min-width:1000px) {
-  form {
-    width: 10rem;
   }
 }

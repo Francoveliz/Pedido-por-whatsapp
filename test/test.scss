@@ -1,0 +1,52 @@
+// The code is a bit of a mess at the moment! Sorry about that.
+
+@import "../css/_variables.scss";
+
+body {
+  padding: 1rem;
+  color: hsla(215, 5%, 50%, 1);
+}
+
+h1 {
+  color: hsla(215, 5%, 10%, 1);
+  margin-bottom: 2rem;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+section>div {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+input[type="radio"] {
+  display: none;
+
+  &:not(:disabled)~label {
+    cursor: pointer;
+  }
+
+}
+
+label {
+  height: 100%;
+  display: block;
+  background: $white;
+  border: 2px solid $primary;
+  border-radius: $borderRadius;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  //margin: 1rem;
+  text-align: center;
+  box-shadow: 0px 3px 10px -2px hsla(150, 5%, 65%, 0.5);
+  position: relative;
+}
+
+input[type="radio"]:checked+label {
+  background: $primary;
+  color: $white;
+  box-shadow: 0px 0px 2px $primary;
+}

@@ -184,39 +184,63 @@
         </div>
       </div>
     </div>
-    <!-- opciones de entrega -->
-    <div class="opciones">
-      <p>Seleccioná las opciones de entrega:</p>
-      <div class="opciones__radios">
-        <label for="delivery">delivery </label>
-        <input type="radio" name="forma-de-envio" id="delivery" value="delivery">
-        <label for="lo-retiro">lo retiro
+    <!-- opciones -->
+    <div class="opciones__container">
+      <!-- opciones de entrega -->
+      <div class="opciones">
+        <p>Seleccioná la opcion de <strong>envio</strong> que prefieras</p>
+        <div class="opciones__radios">
+
+          <input type="radio" name="forma-de-envio" id="delivery" value="delivery" checked>
+          <label for="delivery">delivery </label>
+
+
           <input type="radio" name="forma-de-envio" id="lo-retiro" value="lo-retiro">
-        </label>
+          <label for="lo-retiro">lo retiro
+          </label>
+
+        </div>
+      </div>
+      <!-- opciones de pago -->
+      <div class="opciones">
+        <p>Seleccioná la opcion de <strong>pago</strong> que prefieras</p>
+        <div class="opciones__radios">
+
+          <input type="radio" name="forma-de-pago" id="efectivo" value="efectivo" checked>
+          <label for="efectivo">efectivo</label>
+
+          <input type="radio" name="forma-de-pago" id="mercado-pago" value="mercado-pago">
+          <label for="mercado-pago">mercado pago</label>
+
+        </div>
       </div>
     </div>
-    <!-- opciones de pago -->
-    <div class="opciones">
-      <p>Seleccioná las opciones de pago:</p>
-      <div class="opciones__radios">
-        <label for="efectivo">efectivo</label>
-        <input type="radio" name="forma-de-pago" id="efectivo" value="efectivo">
-        <label for="mercado-pago">mercado pago </label>
-        <input type="radio" name="forma-de-pago" id="mercado-pago" value="mercado-pago">
-      </div>
+    <!-- formulario de datos personales -->
+    <div class="datos-personales">
+      <!-- monto con el que paga -->
+      <label for="paga-con">Monto exacto con el que va a pagar</label>
+      <input type="number" name="paga-con" id="paga-con" placeholder="500">
+      <!-- nombre -->
+      <label for="tu-nombre">Tu nombre</label>
+      <input type="text" name="tu-nombre" id="tu-nombre" placeholder="Maria Barrios">
+      <!-- numero de whatsapp -->
+      <label for="numero-wp">Número de WhatsApp </label>
+      <input type="number" name="numero-wp" id="numero-wp" placeholder="1131548697">
+      <!-- calle -->
+      <label for="calle">Calle</label>
+      <input type="text" id="calle" placeholder="150">
+      <!-- numero de calle-->
+      <label for="numero-domicilio">Numero de domicilio</label>
+      <input type="text" name="numero-domicilio" id="numero-domicilio" placeholder="1920">
+      <!-- entre las calles -->
+      <label for="entre-calles">Entre calles</label>
+      <input type="text" name="entre-calles" id="entre-calles" placeholder="Dorrego y La Pampa">
+      <!-- aclaraciones -->
+      <label for="aclaraciones">Aclaraciones</label>
+      <input type="text" name="aclaraciones" id="aclaraciones" placeholder="El timbre no funciona">
     </div>
-
-
-    <input type="number" name="paga-con" id="paga-con" placeholder="Paga con $">
-    <input type="text" name="tu-nombre" id="tu-nombre" placeholder="tu nombre">
-    <input type="number" name="numero-wp" id="numero-wp" placeholder="numero de whatsapp">
-    <input type="text" name="aclaraciones-pedido" id="aclaraciones-pedido" placeholder="aclaraciones sobre el pedido">
-    <input type="text" name="dir-de-entrega" id="dir-de-entrega" placeholder="direccion de entrega">
-    <input type="text" name="calles" id="calles" placeholder="entre calles">
-    <input type="text" name="aclaraciones-entrega" id="aclaraciones-entrega"
-      placeholder="aclaraciones(ejemplo:segundo timbre)">
     <!-- boton enviar -->
-    <button type="submit">enviar</button>
+    <button class="btn__submit" type="submit">Generar pedido</button>
   </form>
 
 

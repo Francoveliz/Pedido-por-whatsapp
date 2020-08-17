@@ -39,29 +39,6 @@ h1 {
   font-weight: 600;
 }
 
-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: auto;
-}
-
-form h2 {
-  margin-bottom: 2.5rem;
-}
-
-form input[type=text] {
-  height: 2rem;
-}
-
-form button {
-  height: 3rem;
-}
-
 .item__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -162,7 +139,13 @@ form button {
   border-radius: 5px;
 }
 
-.opciones {
+.opciones__container {
+  margin: 0 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 3rem;
+}
+
+.opciones__container .opciones {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -170,13 +153,36 @@ form button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 4rem;
 }
 
-.opciones label {
-  width: 45%;
+.opciones__container .opciones p {
+  text-align: center;
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+}
+
+.opciones__container .opciones .opciones__radios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.opciones__container .opciones .opciones__radios input {
+  display: none;
+}
+
+.opciones__container .opciones .opciones__radios label {
+  width: calc(50% - .5rem);
   height: 3rem;
-  background: #A61D0D;
-  color: #ffffff;
+  display: block;
+  background: none;
+  border: 1px solid #A61D0D;
+  border-radius: 5px;
+  color: #A61D0D;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -187,27 +193,24 @@ form button {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  position: relative;
   cursor: pointer;
+  font-weight: 600;
 }
 
-.opciones input {
-  opacity: 0;
+.opciones__container .opciones .opciones__radios input[type="radio"]:checked + label {
+  background: #A61D0D;
+  color: #ffffff;
+  -webkit-box-shadow: 0px 0px 2px #A61D0D;
+          box-shadow: 0px 0px 2px #A61D0D;
 }
 
-.precio {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin-bottom: .5rem;
+form {
+  margin: 0 10px;
+  margin-bottom: 3rem;
 }
 
-.ticket {
+form .datos-personales {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -215,15 +218,42 @@ form button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 3rem;
 }
 
-.ticket p {
-  margin: 0.5rem 0;
+form .datos-personales input {
+  border: 1px solid #A61D0D;
+  border-radius: 5px;
+  height: 2.5rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
 }
 
-@media (min-width: 1000px) {
-  form {
-    width: 10rem;
-  }
+form .datos-personales input::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+form .datos-personales input:-ms-input-placeholder {
+  font-style: italic;
+}
+
+form .datos-personales input::-ms-input-placeholder {
+  font-style: italic;
+}
+
+form .datos-personales input::placeholder {
+  font-style: italic;
+}
+
+form .btn__submit {
+  width: 100%;
+  height: 4rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  background: #F22A13;
+  color: #ffffff;
+  text-align: center;
+  line-height: 0;
 }
 /*# sourceMappingURL=style.css.map */
