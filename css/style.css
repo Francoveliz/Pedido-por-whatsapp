@@ -132,6 +132,7 @@ form button {
 
 .item .selector__container .selector .selector__contador .selector__btns button {
   height: calc(50% - .2rem);
+  width: 2rem;
   color: #ffffff;
   background: #A61D0D;
   border: none;
