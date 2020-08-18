@@ -100,10 +100,7 @@ h1 {
             padding: .7rem;
             margin-left: .8rem;
             pointer-events: none;
-
-
           }
-
 
           .selector__btns {
             display: flex;
@@ -190,6 +187,10 @@ form {
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
+
+    label {
+      font-weight: 600;
+    }
 
     input {
       border: 1px solid $primary;

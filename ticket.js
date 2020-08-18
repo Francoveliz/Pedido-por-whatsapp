@@ -27,7 +27,6 @@ for (let item in items) {
   }
 }
 
-
 const montoTotal = document.getElementById("monto-total");
 
 montoTotal.innerHTML = montoTotalTxt;
