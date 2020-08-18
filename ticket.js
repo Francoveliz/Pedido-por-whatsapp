@@ -6,21 +6,27 @@ function getParameterByName(name) {
 }
 
 let items = {
-  "muzarellaChica": 200,
-  "muzarellaGrande": 300,
-  "muzarellaJamonChica": 250,
-  "muzarellaJamonGrande": 350,
-  "americanaChica": 375,
-  "americanaGrande": 450,
-  "verduraChica": 350,
-  "verduraGrande": 415
+  "muzarellaChica": [200, "Pizza - Muzarella Chica"],
+  "muzarellaGrande": [300, "Pizza - Muzarella Grande"],
+  "muzarellaJamonChica": [250, "Pizza - Muzarella y Jamon"],
+  "muzarellaJamonGrande": [350, "Pizza - Muzarella y Jamon Grande"],
+  "americanaChica": [375, "Pizza - Americana Chica"],
+  "americanaGrande": [450, "Pizza - Americana Grande"],
+  "verduraChica": [350, "Pizza - Verdura Chica"],
+  "verduraGrande": [415, "Pizza - Verdura Grande"]
 };
 
 let montoTotalTxt = 0
+const articulos = document.getElementById("articulos-seleccionados");
+
 
 for (let item in items) {
   if (getParameterByName(item) > 0) {
-    montoTotalTxt += items[item] * getParameterByName(item);
+    let itemsCantidad = getParameterByName(item);
+    montoTotalTxt += items[item][0] * itemsCantidad;
+    let articuloSum = document.createElement("p");
+    articuloSum.innerHTML = items[item][1] + " - " + "X " + itemsCantidad;
+    articulos.appendChild(articuloSum);
   }
 }
 const montoTotal = document.getElementById("monto-total");
@@ -37,10 +43,13 @@ document.getElementById("txt-forma-de-pago").innerHTML = getParameterByName("for
 document.getElementById("txt-forma-de-envio").innerHTML = getParameterByName("forma-de-envio");
 
 
+
 const enviarPedido = document.getElementById("btn-enviar-pedido");
-let link = "https://wa.me/541166969916?text=";
+
 
 enviarPedido.addEventListener("click", () => {
+  let numeroWhatsapp = "541166969916"
+  let link = "https://wa.me/" + numeroWhatsapp + "?text=";
   let urlPedido = window.location.href;
   urlPedido.toString();
   let encode = encodeURIComponent(urlPedido);
