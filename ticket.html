@@ -13,31 +13,39 @@
 </head>
 
 <body>
-  <div class="ticket">
+  <div class="ticket__container">
     <h2>Detalles de pedido</h2>
-    <p>El monto total es de: </p>
-    <p id="monto-total"></p>
-    <p>vas a pagar con: </p>
-    <p id="txt-paga-con"></p>
-    <p>tu nombre es: </p>
-    <p id="txt-tu-nombre"></p>
-    <p>tu numero de whatsapp es: </p>
-    <p id="txt-numero-wp"></p>
-    <p>tus aclaraciones sobre el pedido son: </p>
-    <p id="txt-aclaraciones-pedido"></p>
-    <p>la direccion de entrega es: </p>
-    <p id="txt-dir-de-entrega"></p>
-    <p>las aclaraciones de la entrega son: </p>
-    <p id="txt-aclaraciones-entrega"></p>
-    <p>la forma de pago es: </p>
-    <p id="txt-forma-de-pago"></p>
-    <p>la forma de envio es: </p>
-    <p id="txt-forma-de-envio"></p>
-    <!-- btn enviar-->
-    <button id="btn-enviar-pedido">enviar pedido</button>
+
+    <div class="ticket">
+
+      <div id="articulos-seleccionados" class="ticket__section">
+        <h3>Articulos seleccionados:</h3>
+        <p>prueba</p>
+      </div>
+      <div id="aclaraciones-sobre-pedido" class="ticket__section">
+        <h3>Aclaraciones: </h3>
+        <p id="txt-aclaraciones"></p>
+      </div>
+      <div class="ticket__dinero">
+        <p>Total: <i id="monto-total"></i></p>
+        <p>Paga con: <i id="txt-paga-con"></i></p>
+      </div>
+
+      <div class="informacion-comprador">
+        <h3>Informacion del comprador:</h3>
+        <p>Nombre: <i id="txt-tu-nombre"></i></p>
+        <p>Telefono: <i id="txt-numero-wp"></i></p>
+        <p>Direccion: Calle <i id="txt-calle"></i> N° <i id="txt-numero-domicilio"></i> e/ <i id="txt-entre-calles"></i>
+        </p>
+      </div>
+
+
+      <!-- btn enviar-->
+      <button id="btn-enviar-pedido">enviar pedido</button>
+    </div>
+    <p id="test"></p>
+    <a href="./index.html">Pagina principal</a>
   </div>
-  <p id="test"></p>
-  <a href="./index.html">Pagina principal</a>
 </body>
 
 </html>

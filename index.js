@@ -5,9 +5,7 @@ let btnMenos = document.querySelectorAll(".selector__menos");
 let inputs = document.querySelectorAll(".item__input");
 // monto total
 let montoTotalElement = document.getElementById("monto-total-index");
-
 let montoTotal = 0;
-let montoTotalContador = 0;
 let items = {
   "muzarellaChica": 200,
   "muzarellaGrande": 300,
@@ -33,10 +31,8 @@ for (let index = 0; index < inputs.length; index++) {
     if (cont[index] < 99) {
       cont[index] += 1;
       inputs[index].value = cont[index];
-      montoTotalContador += precios[index];
-      montoTotal = montoTotalContador;
+      montoTotal += precios[index];
       montoTotalElement.innerHTML = montoTotal;
-      console.log(precios[index])
     }
   });
 
@@ -45,8 +41,7 @@ for (let index = 0; index < inputs.length; index++) {
       cont[index] -= 1;
       inputs[index].value = cont[index];
       montoTotalElement.innerHTML += inputs[index] * precios[index];
-      montoTotalContador -= precios[index];
-      montoTotal = montoTotalContador;
+      montoTotal -= precios[index];
       montoTotalElement.innerHTML = montoTotal;
     }
   });

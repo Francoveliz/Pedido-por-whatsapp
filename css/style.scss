@@ -236,3 +236,76 @@ form {
 
   }
 }
+
+.ticket__container {
+
+  &>h2 {
+    text-transform: uppercase;
+    background: $primary;
+    text-align: center;
+    padding: 1rem;
+    color: $white;
+    margin-top: 2rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+  }
+
+  .ticket {
+    margin: 0 $padMobile;
+
+    .ticket__section {
+      margin-bottom: 3rem;
+
+      &>p {
+        &::before {
+          content: "- ";
+        }
+      }
+    }
+
+    h3 {
+      text-decoration: underline;
+      font-weight: 600;
+      font-size: 1.125rem;
+    }
+
+    .ticket__dinero {
+      text-align: right;
+
+
+      p {
+        text-transform: uppercase;
+        font-size: 1.2rem;
+
+        #monto-total {
+          font-weight: 700;
+          font-size: 1.5rem;
+          color: $primary;
+        }
+
+        i {
+
+
+
+          &::before {
+            content: "$";
+          }
+        }
+      }
+    }
+
+    #btn-enviar-pedido {
+      width: 100%;
+      height: 4rem;
+      border: none;
+      border-radius: $borderRadius;
+      font-weight: 700;
+      background: $cta;
+      color: $white;
+      text-align: center;
+      line-height: 0;
+      margin-top: 3rem;
+
+    }
+  }
+}

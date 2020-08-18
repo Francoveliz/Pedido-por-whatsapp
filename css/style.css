@@ -279,4 +279,65 @@ form .btn__submit {
   text-align: center;
   line-height: 0;
 }
+
+.ticket__container > h2 {
+  text-transform: uppercase;
+  background: #A61D0D;
+  text-align: center;
+  padding: 1rem;
+  color: #ffffff;
+  margin-top: 2rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.ticket__container .ticket {
+  margin: 0 10px;
+}
+
+.ticket__container .ticket .ticket__section {
+  margin-bottom: 3rem;
+}
+
+.ticket__container .ticket .ticket__section > p::before {
+  content: "- ";
+}
+
+.ticket__container .ticket h3 {
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.ticket__container .ticket .ticket__dinero {
+  text-align: right;
+}
+
+.ticket__container .ticket .ticket__dinero p {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.ticket__container .ticket .ticket__dinero p #monto-total {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #A61D0D;
+}
+
+.ticket__container .ticket .ticket__dinero p i::before {
+  content: "$";
+}
+
+.ticket__container .ticket #btn-enviar-pedido {
+  width: 100%;
+  height: 4rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  background: #F22A13;
+  color: #ffffff;
+  text-align: center;
+  line-height: 0;
+  margin-top: 3rem;
+}
 /*# sourceMappingURL=style.css.map */
