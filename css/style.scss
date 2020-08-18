@@ -123,6 +123,24 @@ h1 {
       }
     }
   }
+
+  .monto-total-container {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: right;
+    border-bottom: 1px solid $main;
+    margin-bottom: 7rem;
+
+    #monto-total-index {
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: $primary;
+
+      &::before {
+        content: "$";
+      }
+    }
+  }
 }
 
 .opciones__container {
