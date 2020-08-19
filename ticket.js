@@ -44,10 +44,11 @@ document.getElementById("txt-forma-de-envio").innerHTML = getParameterByName("fo
 
 
 
-const enviarPedido = document.getElementById("btn-enviar-pedido");
 
 
+let enviarPedido = document.getElementById("btn-enviar-pedido");
 enviarPedido.addEventListener("click", () => {
+
   let numeroWhatsapp = "541166969916"
   let link = "https://wa.me/" + numeroWhatsapp + "?text=";
   let urlPedido = window.location.href;

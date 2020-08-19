@@ -1,10 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,300;1,400;1,500&display=swap");
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background: #ffffff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 37px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 37px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
 html {
   font-size: 16px;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background: #ffffff;
+  padding-bottom: 2rem;
 }
 
 .img-header {
@@ -19,6 +55,7 @@ h1 {
   padding: 2rem 0 .2rem 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   margin: 0 10px 4rem 10px;
+  border-radius: 5px;
 }
 
 .p__como-funciona {
@@ -181,6 +218,10 @@ h1 {
   margin-bottom: 2rem;
 }
 
+.opciones__container .opciones p strong {
+  text-transform: uppercase;
+}
+
 .opciones__container .opciones .opciones__radios {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -278,9 +319,10 @@ form .btn__submit {
   color: #ffffff;
   text-align: center;
   line-height: 0;
+  margin-bottom: 3rem;
 }
 
-.ticket__container > h2 {
+.ticket__header {
   text-transform: uppercase;
   background: #A61D0D;
   text-align: center;
@@ -291,7 +333,7 @@ form .btn__submit {
   margin-bottom: 3rem;
 }
 
-.ticket__container .ticket {
+.ticket__container {
   margin: 0 10px;
 }
 
@@ -348,5 +390,26 @@ form .btn__submit {
 
 .ticket__container .ticket .informacion-comprador i {
   font-weight: 600;
+}
+
+@media (min-width: 576px) {
+  h1 {
+    margin: 0 40px 4rem 40px;
+  }
+  .p__como-funciona {
+    padding: 0 40px;
+  }
+  .item {
+    margin: 0 40px;
+  }
+  .opciones__container {
+    margin: 0 40px;
+  }
+  form {
+    margin: 0 40px;
+  }
+  .ticket__container {
+    margin: 0 40px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

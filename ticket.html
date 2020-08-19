@@ -13,40 +13,44 @@
 </head>
 
 <body>
-  <div class="ticket__container">
-    <h2>Detalles de pedido</h2>
+  <div class="container">
+    <h2 class="ticket__header">Detalles de pedido</h2>
+    <div class="ticket__container">
 
-    <div class="ticket">
 
-      <div id="articulos-seleccionados" class="ticket__section">
-        <h3>Articulos seleccionados:</h3>
+      <div class="ticket">
 
+        <div id="articulos-seleccionados" class="ticket__section">
+          <h3>Articulos seleccionados:</h3>
+
+        </div>
+        <div id="aclaraciones-sobre-pedido" class="ticket__section">
+          <h3>Aclaraciones: </h3>
+          <p id="txt-aclaraciones"></p>
+        </div>
+        <div class="ticket__dinero">
+          <p>Total: <i id="monto-total"></i></p>
+          <p>Paga con: <i id="txt-paga-con"></i></p>
+        </div>
+
+        <div class="informacion-comprador">
+          <h3>Informacion del comprador:</h3>
+          <p>Nombre: <i id="txt-tu-nombre"></i></p>
+          <p>Telefono: <i id="txt-numero-wp"></i></p>
+          <p>Direccion: Calle <i id="txt-calle"></i> N° <i id="txt-numero-domicilio"></i> e/ <i
+              id="txt-entre-calles"></i>
+          </p>
+          <p>Metodo de pago: <i id="txt-forma-de-pago"></i></p>
+          <p>Metodo de entrega: <i id="txt-forma-de-envio"></i></p>
+        </div>
+
+
+        <!-- btn enviar-->
+        <button id="btn-enviar-pedido">enviar pedido</button>
       </div>
-      <div id="aclaraciones-sobre-pedido" class="ticket__section">
-        <h3>Aclaraciones: </h3>
-        <p id="txt-aclaraciones"></p>
-      </div>
-      <div class="ticket__dinero">
-        <p>Total: <i id="monto-total"></i></p>
-        <p>Paga con: <i id="txt-paga-con"></i></p>
-      </div>
-
-      <div class="informacion-comprador">
-        <h3>Informacion del comprador:</h3>
-        <p>Nombre: <i id="txt-tu-nombre"></i></p>
-        <p>Telefono: <i id="txt-numero-wp"></i></p>
-        <p>Direccion: Calle <i id="txt-calle"></i> N° <i id="txt-numero-domicilio"></i> e/ <i id="txt-entre-calles"></i>
-        </p>
-        <p>Metodo de pago: <i id="txt-forma-de-pago"></i></p>
-        <p>Metodo de entrega: <i id="txt-forma-de-envio"></i></p>
-      </div>
-
-
-      <!-- btn enviar-->
-      <button id="btn-enviar-pedido">enviar pedido</button>
+      <p id="test"></p>
+      <a href="./index.html">Pagina principal</a>
     </div>
-    <p id="test"></p>
-    <a href="./index.html">Pagina principal</a>
   </div>
 </body>
 
