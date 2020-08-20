@@ -309,7 +309,7 @@ form .datos-personales input::placeholder {
   font-style: italic;
 }
 
-form .btn__submit {
+form #btn__submit {
   width: 100%;
   height: 4rem;
   border: none;

@@ -46,3 +46,23 @@ for (let index = 0; index < inputs.length; index++) {
     }
   });
 }
+
+
+//submit filter
+
+const btnSubmit = document.getElementById("btn__submit");
+const datosPersonales = document.querySelectorAll(".datos-personales__input");
+
+btnSubmit.addEventListener("click", () => {
+  for (let i = 0; i < inputs.length; i++) {
+    if (inputs[i].value == "") {
+      inputs[i].disabled = true;
+    }
+  }
+  for (let j = 0; j < datosPersonales.length; j++) {
+    if (datosPersonales[j].value == "") {
+      datosPersonales[j].disabled = true;
+    }
+  }
+
+});
