@@ -39,8 +39,22 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background: #ffffff;
   padding-bottom: 2rem;
+  background-color: #260703;
+  color: #260703;
+}
+
+.background {
+  position: absolute;
+  width: 100vw;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  position: fixed;
+  z-index: -1;
 }
 
 .img-header {
@@ -181,7 +195,7 @@ h1 {
   font-size: 1.125rem;
   font-weight: 600;
   text-align: right;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #260703;
   margin-bottom: 7rem;
 }
 
