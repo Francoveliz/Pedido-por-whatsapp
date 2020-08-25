@@ -165,7 +165,6 @@ let ticket = (function () {
         encode = encodeURIComponent(urlPedido),
         textoAEnviar = link + encode;
       window.open(textoAEnviar, "Whatsapp");
-
     }
   };
 })();
