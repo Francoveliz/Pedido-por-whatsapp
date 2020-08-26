@@ -1,6 +1,6 @@
 (function () {
 
-  let marcasItems = [
+  let Items = [
     ["smams", [
       ["galletita rellena chocolate", 75],
       ["galletita rellena frutilla", 75],
@@ -94,7 +94,7 @@
 
   ];
 
-  function prueba(array) {
+  function setInputNames(array) {
     let contador = 0;
     array.sort()
     for (let i = 0; i < array.length; i++) {
@@ -106,10 +106,10 @@
       }
     }
   };
-  prueba(marcasItems);
+  setInputNames(Items);
 
 
-  console.log(marcasItems);
+  console.log(Items);
   //repetir por marca
 
   function render(array) {
@@ -174,7 +174,7 @@
       }
     }
   };
-  render(marcasItems);
+  render(Items);
 
 
 })();

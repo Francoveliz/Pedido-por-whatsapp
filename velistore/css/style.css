@@ -106,8 +106,7 @@ h1 {
 }
 
 .item__container .item {
-  margin: 0 10px;
-  margin-bottom: 4rem;
+  margin: 1rem 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   padding-bottom: 1rem;
 }
@@ -115,7 +114,7 @@ h1 {
 .item__container .item h3 {
   font-weight: 600;
   font-size: 1.5rem;
-  margin: 0;
+  margin-bottom: 1rem;
   text-transform: capitalize;
 }
 
@@ -144,7 +143,7 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 2rem;
+  margin: 1rem 0;
 }
 
 .item__container .item .selector__container .selector .selector__name {
@@ -286,6 +285,10 @@ h1 {
 form {
   margin: 0 10px;
   margin-bottom: 3rem;
+}
+
+form h2 {
+  margin-bottom: 2rem;
 }
 
 form .datos-personales {
