@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+  <!-- Reboot -->
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+  <!-- Master css -->
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <title>Pedido por whatsapp</title>
+  <meta property="og:image" content="/img/background.jpg">
+</head>
+
+<body>
+  <img class="background" src="./img/background.jpg" alt="">
+  <div class="container">
+    <img class="img-header" src="img/header.jpg" alt="">
+
+    <h1>VELISTORE</h1>
+    <div class="p__como-funciona">
+      <h3>¿COMO FUNCION LA APP?</h3>
+      <p>Simplemente elegi los productos que
+        quieras comprar, la forma de envio, la
+        forma en que queres pagar y rellena el
+        formulario con tus datos, una vez que
+        tengas todo listo, envia la informacion para
+        hacer el ticket de compra, luego el pedido
+        se envia directamente por whatsapp.
+      </p>
+    </div>
+
+    <form id="enviar" action="./ticket.html">
+      <h2 class="category-title">SIN TACC</h2>
+      <!-- muzarella -->
+      <div class="item__container" id="items-container">
+
+      </div>
+      <p class="monto-total-container">Monto Total: <i id="monto-total-index"></i></p>
+      <!-- opciones -->
+      <div class="opciones__container">
+        <!-- opciones de entrega -->
+        <div class="opciones">
+          <p>Seleccioná la opcion de <strong>envio</strong> que prefieras</p>
+          <div class="opciones__radios">
+
+            <input type="radio" name="a" id="delivery" value="delivery" checked>
+            <label for="delivery">delivery </label>
+
+
+            <input type="radio" name="a" id="lo-retiro" value="lo-retiro">
+            <label for="lo-retiro">lo retiro
+            </label>
+
+          </div>
+        </div>
+        <!-- opciones de pago -->
+        <div class="opciones">
+          <p>Seleccioná la opcion de <strong>pago</strong> que prefieras</p>
+          <div class="opciones__radios">
+
+            <input type="radio" name="b" id="efectivo" value="efectivo" checked>
+            <label for="efectivo">efectivo</label>
+
+            <input type="radio" name="b" id="mercado-pago" value="mercado-pago">
+            <label for="mercado-pago">mercado pago</label>
+
+          </div>
+        </div>
+      </div>
+      <!-- formulario de datos personales -->
+      <div class="datos-personales">
+        <!-- monto con el que paga -->
+        <label for="paga-con">Monto exacto con el que va a pagar</label>
+        <input class="datos-personales__input" type="number" name="c" id="paga-con" placeholder="500">
+        <!-- nombre -->
+        <label for="tu-nombre">Tu nombre</label>
+        <input class="datos-personales__input" type="text" name="d" id="tu-nombre" placeholder="Maria Barrios">
+        <!-- numero de whatsapp -->
+        <label for="numero-wp">Número de WhatsApp </label>
+        <input class="datos-personales__input" type="number" name="e" id="numero-wp" placeholder="1131548697">
+        <!-- calle -->
+        <label for="calle">Calle</label>
+        <input class="datos-personales__input" type="text" name="f" id="calle" placeholder="150">
+        <!-- numero de calle-->
+        <label for="numero-domicilio">Numero de domicilio</label>
+        <input class="datos-personales__input" type="text" name="g" id="numero-domicilio" placeholder="1920">
+        <!-- entre las calles -->
+        <label for="entre-calles">Entre calles</label>
+        <input class="datos-personales__input" type="text" name="h" id="entre-calles" placeholder="Dorrego y La Pampa">
+        <!-- aclaraciones -->
+        <label for="aclaraciones">Aclaraciones</label>
+        <input class="datos-personales__input" type="text" name="i" id="aclaraciones"
+          placeholder="El timbre no funciona">
+      </div>
+      <!-- boton enviar -->
+      <button id="btn__submit" type="submit">Generar pedido</button>
+    </form>
+
+
+
+
+  </div>
+  <script src="test.js"></script>
+  <!-- Javascript files
+  <script src="index.js"></script>
+  <script>
+    index.init();
+  </script>
+  -->
+</body>
+
+</html>

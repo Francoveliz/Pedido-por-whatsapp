@@ -1,9 +1,22 @@
-let index = (function () {
+let items = {
+  "1": [200, "Pizza - Muzarella Chica"],
+  "2": [300, "Pizza - Muzarella Grande"],
+  "3": [250, "Pizza - Muzarella y Jamon Chica"],
+  "4": [350, "Pizza - Muzarella y Jamon Grande"],
+  "5": [375, "Pizza - Americana Chica"],
+  "6": [450, "Pizza - Americana Grande"],
+  "7": [350, "Pizza - Verdura Chica"],
+  "8": [415, "Pizza - Verdura Grande"]
+};
 
+
+let index = (function () {
   return {
     init: function () {
+      console.log(items);
       this.cacheDom();
       this.bindEvents();
+      this.setVariables();
       this.setPrecios();
       this.btnSumarRestar();
     },
@@ -18,6 +31,10 @@ let index = (function () {
     },
     bindEvents: function () {
       this.btnSubmit.addEventListener("click", this.submitEvent.bind(this));
+    },
+    setVariables: function () {
+      this.items = items;
+      this.montoTotal = 0;
     },
     submitEvent: function () {
       this.submitFilter();
@@ -36,34 +53,16 @@ let index = (function () {
         }
       }
     },
-    items: {
-      "muzarellaChica": [200, "Pizza - Muzarella Chica"],
-      "muzarellaGrande": [300, "Pizza - Muzarella Grande"],
-      "muzarellaJamonChica": [250, "Pizza - Muzarella y Jamon Chica"],
-      "muzarellaJamonGrande": [350, "Pizza - Muzarella y Jamon Grande"],
-      "americanaChica": [375, "Pizza - Americana Chica"],
-      "americanaGrande": [450, "Pizza - Americana Grande"],
-      "verduraChica": [350, "Pizza - Verdura Chica"],
-      "verduraGrande": [415, "Pizza - Verdura Grande"]
-    },
-
     setPrecios: function () {
       this.precios = [];
       for (let propiedad in this.items) {
         this.precios.push(this.items[propiedad][0]);
       }
     },
-
     montoTotalSumar: function () {
-      if (this.montoTotal == undefined) {
-        this.montoTotal = 0;
-        this.montoTotalSumar();
-      } else {
-        this.montoTotal += this.precios[this.index];
-        this.montoTotalElement.innerHTML = this.montoTotal;
-      }
+      this.montoTotal += this.precios[this.index];
+      this.montoTotalElement.innerHTML = this.montoTotal;
     },
-
     montoTotalRestar: function () {
       this.montoTotal -= this.precios[this.index];
       this.montoTotalElement.innerHTML = this.montoTotal;
@@ -127,9 +126,9 @@ let ticket = (function () {
       this.btnEnviarPedido.addEventListener("click", this.enviarPedido.bind(this));
     },
     setVariables: function () {
-      this.items = index.items;
+      this.items = items;
       this.montoTotalContainer = 0;
-      this.formInputs = ["paga-con", "tu-nombre", "numero-wp", "aclaraciones", "calle", "numero-domicilio", "entre-calles", "forma-de-pago", "forma-de-envio"];
+      this.formInputs = ["a", "b", "c", "d", "e", "f", "g", "h", "i"];
     },
     setMontoTotal: function (item, itemsCantidad) {
       this.montoTotalContainer += this.items[item][0] * itemsCantidad;
