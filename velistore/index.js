@@ -7,7 +7,7 @@ let items = (function () {
     },
     items: [
       ["smams", [
-        ["galletita rellena chocolate", 75, ["sin tacc"]],
+        ["galletita rellena chocolate", 75, ["sin tacc", " vegana"]],
         ["galletita rellena frutilla", 75, ["sin tacc"]],
         ["galletita rellena vainilla", 75, ["sin tacc"]],
         ["crackers sin sal clásicas", 90, ["sin tacc"]],
