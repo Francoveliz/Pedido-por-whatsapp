@@ -7,94 +7,94 @@ let items = (function () {
     },
     items: [
       ["smams", [
-        ["galletita rellena chocolate", 75],
-        ["galletita rellena frutilla", 75],
-        ["galletita rellena vainilla", 75],
-        ["crackers sin sal clásicas", 90],
-        ["polvoron vainilla", 82],
-        ["polvoron coco", 82],
-        ["polvoron limón", 82],
-        ["galletitas de vainilla con chips de chocolate", 120],
-        ["grisines clásicos", 138],
-        ["pepas 150g", 65],
+        ["galletita rellena chocolate", 75, ["sin tacc"]],
+        ["galletita rellena frutilla", 75, ["sin tacc"]],
+        ["galletita rellena vainilla", 75, ["sin tacc"]],
+        ["crackers sin sal clásicas", 90, ["sin tacc"]],
+        ["polvoron vainilla", 82, ["sin tacc"]],
+        ["polvoron coco", 82, ["sin tacc"]],
+        ["polvoron limón", 82, ["sin tacc"]],
+        ["galletitas de vainilla con chips de chocolate", 120, ["sin tacc"]],
+        ["grisines clásicos", 138, ["sin tacc"]],
+        ["pepas 150g", 65, ["sin tacc"]],
       ]],
       ["santa maria", [
-        ["galletita de chocolate/scons", 115],
-        ["alfajor de chocolate con dulce de leche", 70],
-        ["premezcla universal - 1kg", 310]
+        ["galletita de chocolate/scons", 115, ["sin tacc"]],
+        ["alfajor de chocolate con dulce de leche", 70, ["sin tacc"]],
+        ["premezcla universal - 1kg", 310, ["sin tacc"]]
       ]],
       ["cerro azul", [
-        ["alfajor con mousse de vainilla (vegano, sin azucar)", 78]
+        ["alfajor con mousse de vainilla (vegano, sin azucar)", 78, ["sin tacc"]]
       ]],
       ["doña pacha", [
-        ["harina de arroz", 90],
-        ["premezcla de pizza", 145]
+        ["harina de arroz", 90, ["sin tacc"]],
+        ["premezcla de pizza", 145, ["sin tacc"]]
       ]],
       ["olienka", [
-        ["trigo Sarraceno con alto contenido en fibra", 210],
+        ["trigo Sarraceno con alto contenido en fibra", 210, ["sin tacc"]],
       ]],
       ["delicel", [
-        ["premezcla de bizcochuelo chocolate", 125],
-        ["premezcla de bizcochuelo vainilla", 125],
+        ["premezcla de bizcochuelo chocolate", 125, ["sin tacc"]],
+        ["premezcla de bizcochuelo vainilla", 125, ["sin tacc"]],
       ]],
       ["egran", [
-        ["barra crocante sabor chocolate", 30]
+        ["barra crocante sabor chocolate", 30, ["sin tacc"]]
       ]],
       ["macritas", [
-        ["nachos - 90gr.", 75]
+        ["nachos - 90gr.", 75, ["sin tacc"]]
       ]],
       ["cerealsol", [
-        ["Cereal sabor miel (vegano)", 60],
-        ["Cereal sabor vainilla (vegano)", 60],
-        ["Cereal sabor chocolate (vegano)", 60],
+        ["Cereal sabor miel (vegano)", 60, ["sin tacc"]],
+        ["Cereal sabor vainilla (vegano)", 60, ["sin tacc"]],
+        ["Cereal sabor chocolate (vegano)", 60, ["sin tacc"]],
       ]],
       ["lennys", [
-        ["budín de vainilla marmolado/chips de chocolate", 115],
+        ["budín de vainilla marmolado/chips de chocolate", 115, ["sin tacc"]],
       ]],
       ["leiva", [
-        ["Almohaditas de frutilla - 180gr.", 82],
+        ["Almohaditas de frutilla - 180gr.", 82, ["sin tacc"]],
       ]],
       ["julicroc", [
-        ["tutucas - 90g", 50],
-        ["maní tostado - 100g", 45],
-        ["papás fritas - 70g", 55],
+        ["tutucas - 90g", 50, ["sin tacc"]],
+        ["maní tostado - 100g", 45, ["sin tacc"]],
+        ["papás fritas - 70g", 55, ["sin tacc"]],
       ]],
       ["vrink", [
-        ["leche de almendras (sin azúcar) - 1L", 180],
+        ["leche de almendras (sin azúcar) - 1L", 180, ["sin tacc"]],
       ]],
       ["nina´s", [
-        ["mantequilla de maní", 200],
+        ["mantequilla de maní", 200, ["sin tacc"]],
       ]],
       ["macrozen", [
-        ["sal marina fina", 115],
+        ["sal marina fina", 115, ["sin tacc"]],
       ]],
       ["risky dit", [
-        ["tostadas de arroz clásica, sin sal", 80],
+        ["tostadas de arroz clásica, sin sal", 80, ["sin tacc"]],
       ]],
       ["arcor", [
-        ["natural Break- Mix frutos secos", 75],
+        ["natural Break- Mix frutos secos", 75, ["sin tacc"]],
       ]],
       ["wakas", [
-        ["pastas multicereal de quinoa - 250gr.", 135],
-        ["pastas multicereal de chia - 250gr.", 135],
+        ["pastas multicereal de quinoa - 250gr.", 135, ["sin tacc"]],
+        ["pastas multicereal de chia - 250gr.", 135, ["sin tacc"]],
       ]],
       ["lulemu", [
-        ["tostadas light", 55],
+        ["tostadas light", 55, ["sin tacc"]],
       ]],
       ["kapac", [
-        ["premezcla universal - 500g", 126],
-        ["polvo leudante - 400g", 180],
+        ["premezcla universal - 500g", 126, ["sin tacc"]],
+        ["polvo leudante - 400g", 180, ["sin tacc"]],
       ]],
       ["maní king", [
-        ["pasta de maní natural", 270],
+        ["pasta de maní natural", 270, ["sin tacc"]],
       ]],
       ["franks", [
-        ["pan de hamburguesa", 60],
+        ["pan de hamburguesa", 60, ["sin tacc"]],
       ]],
       ["alicante", [
-        ["esencia de vainilla", 110],
-        ["coco rallado - 50gr", 70],
-        ["bicarbonato de sodio - 50gr", 40],
+        ["esencia de vainilla", 110, ["sin tacc"]],
+        ["coco rallado - 50gr", 70, ["sin tacc"]],
+        ["bicarbonato de sodio - 50gr", 40, ["sin tacc"]],
       ]],
     ],
     setInputNames: function (array) {
@@ -108,27 +108,28 @@ let items = (function () {
           for (let k = 0; k < array[i][1][j].length; k++) {}
         }
       }
-
     },
     render: function (array) {
+      //brand iterator
       for (let i = 0; i < array.length; i++) {
+        //create brand elements
         let
           container = document.getElementById("items-container"),
           divItem = document.createElement("div"),
           h3 = document.createElement("h3"),
           selectorContainer = document.createElement("div");
-
+        //add brand classes
         divItem.classList.add("item");
         selectorContainer.classList.add("selector__container");
-
+        //add brand to Dom
         container.appendChild(divItem);
         divItem.appendChild(h3);
         divItem.appendChild(selectorContainer);
-
+        //brand name
         h3.innerHTML = array[i][0];
-
-        //repetir por item
+        //item iterator
         for (let j = 0; j < array[i][1].length; j++) {
+          //create item elements
           let
             selector = document.createElement("div"),
             selectorName = document.createElement("p"),
@@ -139,7 +140,7 @@ let items = (function () {
             plusIcon = document.createElement("i"),
             selectorMenos = document.createElement("button"),
             minusIcon = document.createElement("i");
-
+          //add item classes
           selector.classList.add("selector");
           selectorName.classList.add("selector__name");
           selectorContador.classList.add("selector__contador");
@@ -151,7 +152,7 @@ let items = (function () {
           selectorMenos.classList.add("selector__menos");
           minusIcon.classList.add("fas");
           minusIcon.classList.add("fa-minus");
-
+          //add items to Dom
           selectorContainer.appendChild(selector);
           selector.appendChild(selectorName);
           selector.appendChild(selectorContador);
@@ -161,13 +162,14 @@ let items = (function () {
           selectorMas.appendChild(plusIcon);
           selectorBtns.appendChild(selectorMenos);
           selectorMenos.appendChild(minusIcon);
-
-          itemInput.setAttribute("name", array[i][1][j][2]);
+          //set items attributes
+          itemInput.setAttribute("name", array[i][1][j][3]);
           itemInput.setAttribute("type", "number");
           selectorMas.setAttribute("type", "button");
           selectorMenos.setAttribute("type", "button");
-
-          selectorName.innerHTML = array[i][1][j][0] + " - $" + array[i][1][j][1];
+          //set item text content
+          selectorName.innerHTML = array[i][1][j][0] + " (" + array[i][1][j][2] + ")" +
+            " - $" + array[i][1][j][1];
         }
       }
     },
@@ -190,7 +192,7 @@ let index = (function () {
       this.bindEvents();
       this.setPrecios(this.items);
       this.btnSumarRestar();
-      console.log(this.items);
+
 
     },
 
@@ -310,13 +312,11 @@ let ticket = (function () {
     setArticulosSeleccionados: function () {
       for (let i = 0; i < this.items.length; i++) {
         for (let j = 0; j < this.items[i][1].length; j++) {
-          if (this.getParameterByName(this.items[i][1][j][2])) {
-            let itemsCantidad = this.getParameterByName(this.items[i][1][j][2]),
+          if (this.getParameterByName(this.items[i][1][j][3])) {
+            let itemsCantidad = this.getParameterByName(this.items[i][1][j][3]),
               articuloSum = document.createElement("p");
             this.articulos.appendChild(articuloSum);
             articuloSum.innerHTML = this.items[i][1][j][0] + " - " + "X " + itemsCantidad;
-            console.log(this.items[i][1][j][2]);
-            console.log(itemsCantidad);
             this.setMontoTotal(this.items[i][1][j][1], itemsCantidad);
           }
         }
