@@ -96,7 +96,7 @@ let items = (function () {
         ["coco rallado - 50gr", 70, ["sin tacc"]],
         ["bicarbonato de sodio - 50gr", 40, ["sin tacc"]],
       ]],
-      ["pianche", [
+      ["piache", [
         ["galletitas endulzado con Stevia sabor banana y nuez", 120, ["sin azúcar"]],
         ["galletitas endulzado con Stevia sabor coco y avena", 120, ["sin azúcar"]],
       ]],
@@ -237,8 +237,21 @@ let items = (function () {
           itemInput.setAttribute("type", "number");
           selectorMas.setAttribute("type", "button");
           selectorMenos.setAttribute("type", "button");
+          //filter empty labels function
+          function labelFunction(label) {
+            console.log(label);
+            if (label == "") {
+              return "";
+            } else {
+              let labelProcesado = [];
+              for (let i = 0; i < label.length; i++) {
+                labelProcesado.push(label + " ");
+              }
+              return " (" + labelProcesado + ")"
+            }
+          };
           //set item text content
-          selectorName.innerHTML = array[i][1][j][0] + " (" + array[i][1][j][2] + ")" +
+          selectorName.innerHTML = array[i][1][j][0] + labelFunction(array[i][1][j][2]) +
             " - $" + array[i][1][j][1];
         }
       }
