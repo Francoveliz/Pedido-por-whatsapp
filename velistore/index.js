@@ -274,20 +274,17 @@ let index = (function () {
       this.bindEvents();
       this.setPrecios(this.items);
       this.btnSumarRestar();
-
-
     },
-
     cacheDom: function () {
       this.btnMas = document.querySelectorAll(".selector__mas");
       this.inputs = document.querySelectorAll(".item__input");
       this.btnMenos = document.querySelectorAll(".selector__menos");
       this.montoTotalElement = document.getElementById("monto-total-index");
-      this.btnSubmit = document.getElementById("btn__submit");
+      this.btnSubmit = document.getElementById("enviar");
       this.datosPersonales = document.querySelectorAll(".datos-personales__input");
     },
     bindEvents: function () {
-      this.btnSubmit.addEventListener("click", this.submitEvent.bind(this));
+      this.btnSubmit.addEventListener("submit", this.submitEvent.bind(this));
     },
     setVariables: function () {
       this.items = items.setItems();
