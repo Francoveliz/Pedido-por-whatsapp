@@ -245,9 +245,9 @@ let items = (function () {
             } else {
               let labelProcesado = [];
               for (let i = 0; i < label.length; i++) {
-                labelProcesado.push(label + " ");
+                labelProcesado.push(label[i] + " ");
               }
-              return " (" + labelProcesado + ")"
+              return " ( " + labelProcesado + ")"
             }
           };
           //set item text content
