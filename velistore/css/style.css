@@ -423,6 +423,9 @@ form #btn__submit {
   .item {
     margin: 0 40px;
   }
+  .item .selector__name {
+    margin-right: 2rem !important;
+  }
   .opciones__container {
     margin: 0 40px;
   }

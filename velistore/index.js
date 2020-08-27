@@ -24,7 +24,7 @@ let items = (function () {
         ["premezcla universal - 1kg", 310, ["sin tacc"]]
       ]],
       ["cerro azul", [
-        ["alfajor con mousse de vainilla", 78, ["sin tacc", " vegano", " sin azúcar"]]
+        ["alfajor con mousse de vainilla", 78, ["sin tacc", " vegano", "sin azúcar"]]
       ]],
       ["doña pacha", [
         ["harina de arroz", 90, ["sin tacc"]],
@@ -44,9 +44,9 @@ let items = (function () {
         ["nachos - 90gr.", 75, ["sin tacc"]]
       ]],
       ["cerealsol", [
-        ["Cereal sabor miel", 60, ["sin tacc", " vegano"]],
-        ["Cereal sabor vainilla", 60, ["sin tacc", " vegano"]],
-        ["Cereal sabor chocolate", 60, ["sin tacc", " vegano"]],
+        ["Cereal sabor miel", 60, ["sin tacc", "vegano"]],
+        ["Cereal sabor vainilla", 60, ["sin tacc", "vegano"]],
+        ["Cereal sabor chocolate", 60, ["sin tacc", "vegano"]],
       ]],
       ["lennys", [
         ["budín de vainilla marmolado/chips de chocolate", 115, ["sin tacc"]],
@@ -60,7 +60,7 @@ let items = (function () {
         ["papás fritas - 70g", 55, ["sin tacc"]],
       ]],
       ["vrink", [
-        ["leche de almendras - 1L", 180, ["sin tacc", " sin azúcar"]],
+        ["leche de almendras - 1L", 180, ["sin tacc", "sin azúcar"]],
       ]],
       ["nina´s", [
         ["mantequilla de maní", 200, ["sin tacc"]],
@@ -69,14 +69,14 @@ let items = (function () {
         ["sal marina fina", 115, ["sin tacc"]],
       ]],
       ["risky dit", [
-        ["tostadas de arroz clásica", 80, ["sin tacc", " sin sal"]],
+        ["tostadas de arroz clásica", 80, ["sin tacc", "sin sal"]],
       ]],
       ["arcor", [
         ["natural Break- Mix frutos secos", 75, ["sin tacc"]],
       ]],
       ["wakas", [
-        ["pastas multicereal de quinoa - 250gr.", 135, ["sin tacc", " vegano"]],
-        ["pastas multicereal de chia - 250gr.", 135, ["sin tacc", " vegano"]],
+        ["pastas multicereal de quinoa - 250gr.", 135, ["sin tacc", "vegano"]],
+        ["pastas multicereal de chia - 250gr.", 135, ["sin tacc", "vegano"]],
       ]],
       ["lulemu", [
         ["tostadas light", 55, ["sin tacc"]],
@@ -86,7 +86,7 @@ let items = (function () {
         ["polvo leudante - 400g", 180, ["sin tacc"]],
       ]],
       ["maní king", [
-        ["pasta de maní natural", 270, ["sin tacc", " vegano"]],
+        ["pasta de maní natural", 270, ["sin tacc", "vegano"]],
       ]],
       ["franks", [
         ["pan de hamburguesa", 60, ["sin tacc"]],
@@ -239,15 +239,14 @@ let items = (function () {
           selectorMenos.setAttribute("type", "button");
           //filter empty labels function
           function labelFunction(label) {
-            console.log(label);
             if (label == "") {
               return "";
             } else {
               let labelProcesado = [];
               for (let i = 0; i < label.length; i++) {
-                labelProcesado.push(label[i] + " ");
+                labelProcesado.push(" " + label[i] + " ");
               }
-              return " ( " + labelProcesado + ")"
+              return " (" + labelProcesado + ")"
             }
           };
           //set item text content
