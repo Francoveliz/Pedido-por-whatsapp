@@ -286,6 +286,7 @@ h1 {
   cursor: pointer;
   font-weight: 600;
   text-transform: uppercase;
+  font-size: .85rem;
 }
 
 .opciones__container .opciones .opciones__radios label:hover {
