@@ -149,7 +149,7 @@ h1 {
 .item__container .item .selector__container .selector .selector__name {
   font-style: italic;
   margin: 1rem 0;
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-transform: capitalize;
 }
 
@@ -425,6 +425,7 @@ form #btn__submit {
   }
   .item .selector__name {
     margin-right: 2rem !important;
+    font-size: 1.2rem;
   }
   .opciones__container {
     margin: 0 40px;

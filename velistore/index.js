@@ -1,5 +1,4 @@
 let items = (function () {
-
   return {
     init: function () {
       this.setInputNames(this.items);
@@ -259,12 +258,8 @@ let items = (function () {
       this.setInputNames(this.items);
       return this.items;
     }
-
   };
 })();
-
-
-
 // index page
 let index = (function () {
   return {
@@ -359,9 +354,7 @@ let index = (function () {
     },
   };
 })();
-
-
-
+//ticket page
 let ticket = (function () {
   return {
     init: function () {
