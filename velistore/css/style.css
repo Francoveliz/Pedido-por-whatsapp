@@ -155,6 +155,16 @@ h1 {
   text-transform: capitalize;
 }
 
+.item__container .item .selector__container .selector .selector__name .monto-precio {
+  font-weight: bold;
+  color: #607F34;
+  font-size: 1.1rem;
+}
+
+.item__container .item .selector__container .selector .selector__name .label-style {
+  font-style: italic;
+}
+
 .item__container .item .selector__container .selector .selector__contador {
   display: -webkit-box;
   display: -ms-flexbox;

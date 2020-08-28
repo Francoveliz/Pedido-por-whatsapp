@@ -248,10 +248,12 @@ let items = (function () {
               return " (" + labelProcesado + ")"
             }
           };
-          //style monto precio
-          let preciosText = "<span style='font-weight:bold;color:#607F34;font-size:1.1rem;'>$" + array[i][1][j][1] + "</span"
+          //labels add class
+          let labelStyle = "<span class='label-style'>" + labelFunction(array[i][1][j][2]) + "</span>"
+          //monto precio add class
+          let preciosText = "<span class='monto-precio'>$" + array[i][1][j][1] + "</span"
           //set item text content
-          selectorName.innerHTML = array[i][1][j][0] + labelFunction(array[i][1][j][2]) +
+          selectorName.innerHTML = array[i][1][j][0] + labelStyle +
             " - " + preciosText;
         }
       }
