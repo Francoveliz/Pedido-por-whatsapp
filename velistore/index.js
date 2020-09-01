@@ -59,7 +59,7 @@ let items = (function () {
         ["papás fritas - 70g", 55, ["sin tacc"]],
       ]],
       ["vrink", [
-        ["leche de almendras - 1L", 180, ["sin tacc", "sin azúcar"]],
+        ["leche de almendras - 1L", 200, ["sin tacc", "sin azúcar"]],
       ]],
       ["nina´s", [
         ["mantequilla de maní", 200, ["sin tacc"]],
@@ -69,9 +69,6 @@ let items = (function () {
       ]],
       ["risky dit", [
         ["tostadas de arroz clásica", 80, ["sin tacc", "sin sal"]],
-      ]],
-      ["arcor", [
-        ["natural Break- Mix frutos secos", 75, ["sin tacc"]],
       ]],
       ["wakas", [
         ["pastas multicereal de quinoa - 250gr.", 135, ["sin tacc", "vegano"]],
@@ -86,9 +83,6 @@ let items = (function () {
       ]],
       ["maní king", [
         ["pasta de maní natural", 270, ["sin tacc", "vegano"]],
-      ]],
-      ["franks", [
-        ["pan de hamburguesa", 60, ["sin tacc"]],
       ]],
       ["alicante", [
         ["esencia de vainilla", 110, ["sin tacc"]],
@@ -156,8 +150,7 @@ let items = (function () {
         ["cacao amargo - 100Gr.", 50, [""]],
         ["azúcar mascabo - 500Gr.", 160, [""]],
         ["maní salado - 100Gr.", 20, [""]],
-        ["maní - 100Gr.", 18, ["sin sal"]],
-        ["arroz yamani - 1Kg.", 170, [""]],
+        ["maní - 100Gr.", 18, ["sin sal"]]
       ]],
       ["almeda", [
         ["miel pura sólida - 480Gr.", 260, [""]],
