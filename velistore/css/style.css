@@ -149,7 +149,6 @@ h1 {
 }
 
 .item__container .item .selector__container .selector .selector__name {
-  font-style: italic;
   margin: 1rem 0;
   font-size: 1rem;
   text-transform: capitalize;

@@ -412,7 +412,7 @@ let ticket = (function () {
     },
     enviarPedido: function () {
       let
-        numeroWhatsapp = "541166969916",
+        numeroWhatsapp = "541155725608",
         link = "https://wa.me/" + numeroWhatsapp + "?text=",
         urlPedido = window.location.href,
         encode = encodeURIComponent(urlPedido),
