@@ -1,179 +1,36 @@
 let items = (function () {
   return {
     init: function () {
-      this.setInputNames(this.items);
-      this.render(this.items);
+      this.render(this.setInputNames(this.setOrder(this.items)));
     },
-    items: [
-      ["smams", [
-        ["galletita rellena chocolate", 75, ["sin tacc"]],
-        ["galletita rellena frutilla", 75, ["sin tacc"]],
-        ["galletita rellena vainilla", 75, ["sin tacc"]],
-        ["crackers clásicas", 90, ["sin tacc", " sin sal"]],
-        ["polvoron vainilla", 82, ["sin tacc"]],
-        ["polvoron coco", 82, ["sin tacc"]],
-        ["polvoron limón", 82, ["sin tacc"]],
-        ["galletitas de vainilla con chips de chocolate", 120, ["sin tacc"]],
-        ["grisines clásicos", 138, ["sin tacc"]],
-        ["pepas 150g", 65, ["sin tacc"]],
-      ]],
-      ["santa maria", [
-        ["galletita de chocolate/scons", 115, ["sin tacc"]],
-        ["alfajor de chocolate con dulce de leche", 70, ["sin tacc"]],
-        ["premezcla universal - 1kg", 310, ["sin tacc"]]
-      ]],
-      ["cerro azul", [
-        ["alfajor con mousse de vainilla", 78, ["sin tacc", " vegano", "sin azúcar"]]
-      ]],
-      ["doña pacha", [
-        ["harina de arroz", 90, ["sin tacc"]],
-        ["premezcla de pizza", 145, ["sin tacc"]]
-      ]],
-      ["olienka", [
-        ["trigo Sarraceno con alto contenido en fibra", 210, ["sin tacc"]],
-      ]],
-      ["delicel", [
-        ["premezcla de bizcochuelo chocolate", 125, ["sin tacc"]],
-        ["premezcla de bizcochuelo vainilla", 125, ["sin tacc"]],
-      ]],
-      ["egran", [
-        ["barra crocante sabor chocolate", 30, ["sin tacc"]]
-      ]],
-      ["macritas", [
-        ["nachos - 90gr.", 75, ["sin tacc"]]
-      ]],
-      ["cerealsol", [
-        ["Cereal sabor miel", 60, ["sin tacc", "vegano"]],
-        ["Cereal sabor vainilla", 60, ["sin tacc", "vegano"]],
-        ["Cereal sabor chocolate", 60, ["sin tacc", "vegano"]],
-      ]],
-      ["lennys", [
-        ["budín de vainilla marmolado/chips de chocolate", 115, ["sin tacc"]],
-      ]],
-      ["leiva", [
-        ["Almohaditas de frutilla - 180gr.", 82, ["sin tacc"]],
-      ]],
-      ["julicroc", [
-        ["tutucas - 90g", 50, ["sin tacc"]],
-        ["maní tostado - 100g", 45, ["sin tacc"]],
-        ["papás fritas - 70g", 55, ["sin tacc"]],
-      ]],
-      ["vrink", [
-        ["leche de almendras - 1L", 200, ["sin tacc", "sin azúcar"]],
-      ]],
-      ["nina´s", [
-        ["mantequilla de maní", 200, ["sin tacc"]],
-      ]],
-      ["macrozen", [
-        ["sal marina fina", 115, ["sin tacc"]],
-      ]],
-      ["risky dit", [
-        ["tostadas de arroz clásica", 80, ["sin tacc", "sin sal"]],
-      ]],
-      ["wakas", [
-        ["pastas multicereal de quinoa - 250gr.", 135, ["sin tacc", "vegano"]],
-        ["pastas multicereal de chia - 250gr.", 135, ["sin tacc", "vegano"]],
-      ]],
-      ["lulemu", [
-        ["tostadas light", 55, ["sin tacc"]],
-      ]],
-      ["kapac", [
-        ["premezcla universal - 500g", 126, ["sin tacc"]],
-        ["polvo leudante - 400g", 180, ["sin tacc"]],
-      ]],
-      ["maní king", [
-        ["pasta de maní natural", 270, ["sin tacc", "vegano"]],
-      ]],
-      ["alicante", [
-        ["esencia de vainilla", 110, ["sin tacc"]],
-        ["coco rallado - 50gr", 70, ["sin tacc"]],
-        ["bicarbonato de sodio - 50gr", 40, ["sin tacc"]],
-      ]],
-      ["piache", [
-        ["galletitas endulzado con Stevia sabor banana y nuez", 120, ["sin azúcar"]],
-        ["galletitas endulzado con Stevia sabor coco y avena", 120, ["sin azúcar"]],
-      ]],
-      ["meltaim", [
-        ["snack sabor : hierbas y queso", 75, ["vegano"]],
-        ["snack sabor : oliva y Orégano", 75, ["vegano"]],
-      ]],
-      ["granja del sol", [
-        ["medallón Veggies de quinoa y Espinaca", 120, ["vegano"]],
-        ["medallón Veggies de cebolla caramelizada y arroz yamani", 120, ["vegano"]],
-      ]],
-      ["lucchetti", [
-        ["milanesa de soja", 185, ["vegetariano"]],
-      ]],
-      ["granolas", [
-        ["mix clásico - avena arrollada, maní, pasas de uva, coco rallado, canela, jarabe demaíz y vainilla - 100gr.", 40, [""]],
-        ["mix energético - copos de maíz, avena, maní, semillas de girasol, lino, sesamo, pasas de uva, frutas deshidratadas, almendras, vainilla, jarabe de maíz - 100gr.", 50, [""]],
-        ["granola light - avena, miel, lino, fibra, pasas morochas, manzana deshidratada - 100gr.", 38, [""]],
-      ]],
-      ["frutos secos", [
-        ["mix Clásico - pasas negras, pasas rubias, almendras, nueces, avellanas, castañas de cajú, maní - 100gr.", 70, [""]],
-        ["nuez mariposa - 100gr.", 110, [""]],
-        ["bananas chips - 100gr.", 75, [""]],
-        ["pasas de uva - 100gr.", 28, [""]],
-        ["almendras nacionales - 100gr.", 150, [""]],
-        ["castañas de cajú - 100g", 135, [""]],
-      ]],
-      ["cereales", [
-        ["copos de maíz - 100gr.", 30, ["sin azúcar"]],
-        ["copos de maíz azucarados - 100gr.", 40, [""]],
-        ["avena Instantánea - 1Kg", 180, [""]],
-        ["avena tradicional - 1Kg", 180, [""]],
-        ["Almohaditas sabor: chocolate - 100Gr.", 50, [""]],
-        ["Almohaditas sabor: avellana - 100Gr.", 46, [""]],
-        ["Almohaditas sabor: frutilla - 100Gr.", 46, [""]],
-      ]],
-      ["harinas", [
-        ["harina integral - 1Kg.", 65, [""]],
-        ["harina de avena - 1 Kg.", 140, [""]],
-        ["fécula de mandioca - 1 Kg.", 170, [""]],
-        ["fécula de garbanzo - 1 Kg.", 110, [""]],
-      ]],
-      ["semillas", [
-        ["chía - 100Gr.", 30, [""]],
-        ["girasol - 100Gr.", 35, [""]],
-        ["lino - 100Gr.", 15, [""]],
-        ["mix - 100Gr.", 30, [""]],
-        ["sésamo integral - 100Gr.", 30, [""]],
-      ]],
-      ["legumbres", [
-        ["soja texturizada - 100Gr.", 25, [""]],
-        ["soja texturizada sustituto pollo - 250Gr.", 75, [""]],
-        ["maní salado - 100Gr.", 20, [""]],
-        ["maní - 100Gr.", 18, ["sin sal"]],
-        ["arroz yamani - 1Kg.", 170, [""]],
-      ]],
-      ["reposteria", [
-        ["cacao amargo - 100Gr.", 50, [""]],
-        ["azúcar mascabo - 500Gr.", 160, [""]],
-        ["maní salado - 100Gr.", 20, [""]],
-        ["maní - 100Gr.", 18, ["sin sal"]]
-      ]],
-      ["almeda", [
-        ["miel pura sólida - 480Gr.", 260, [""]],
-      ]],
-      ["san agustin", [
-        ["aceite de oliva extra virgen con aceite de girasol - 1/2L", 150, [""]],
-      ]],
-    ],
-    setInputNames: function (array) {
+    setOrder: function (obj) {
+      let newObj = {};
+      Object.keys(obj).sort().forEach(function (key) {
+        newObj[key] = obj[key];
+      });
+      for (let item in newObj) {
+        newObj[item].sort(function (a, b) {
+          var textA = a.name.toUpperCase();
+          var textB = b.name.toUpperCase();
+          return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+        });
+      };
+      return newObj;
+    },
+    setInputNames: function (obj) {
       let contador = 0;
-      array.sort()
-      for (let i = 0; i < array.length; i++) {
-        array[i][1].sort();
-        for (let j = 0; j < array[i][1].length; j++) {
-          array[i][1][j].push(contador + "");
+      for (let item in obj) {
+        obj[item].forEach(el => {
+          el.index = contador;
+          el.index = el.index + "";
           contador++;
-          for (let k = 0; k < array[i][1][j].length; k++) {}
-        }
+        });
       }
+      return obj;
     },
-    render: function (array) {
+    render: function (obj) {
       //brand iterator
-      for (let i = 0; i < array.length; i++) {
+      for (let brand in obj) {
         //create brand elements
         let
           container = document.getElementById("items-container"),
@@ -188,9 +45,9 @@ let items = (function () {
         divItem.appendChild(h3);
         divItem.appendChild(selectorContainer);
         //brand name
-        h3.innerHTML = array[i][0];
+        h3.innerHTML = brand;
         //item iterator
-        for (let j = 0; j < array[i][1].length; j++) {
+        for (let j = 0; j < obj[brand].length; j++) {
           //create item elements
           let
             selector = document.createElement("div"),
@@ -225,35 +82,465 @@ let items = (function () {
           selectorBtns.appendChild(selectorMenos);
           selectorMenos.appendChild(minusIcon);
           //set items attributes
-          itemInput.setAttribute("name", array[i][1][j][3]);
+          itemInput.setAttribute("name", obj[brand][j]["index"]);
           itemInput.setAttribute("type", "number");
           selectorMas.setAttribute("type", "button");
           selectorMenos.setAttribute("type", "button");
           //filter empty labels function
-          function labelFunction(label) {
-            if (label == "") {
+          function labelFunction(labels) {
+            if (labels == "") {
               return "";
             } else {
               let labelProcesado = [];
-              for (let i = 0; i < label.length; i++) {
-                labelProcesado.push(" " + label[i] + " ");
+              for (let i = 0; i < labels.length; i++) {
+                labelProcesado.push(" " + labels[i] + " ");
               }
               return " (" + labelProcesado + ")"
             }
           };
           //labels add class
-          let labelStyle = "<span class='label-style'>" + labelFunction(array[i][1][j][2]) + "</span>"
+          let labelStyle = "<span class='label-style'>" + labelFunction(obj[brand][j]["labels"]) + "</span>"
           //monto precio add class
-          let preciosText = "<span class='monto-precio'>$" + array[i][1][j][1] + "</span"
+          let preciosText = "<span class='monto-precio'>$" + obj[brand][j]["price"] + "</span"
           //set item text content
-          selectorName.innerHTML = array[i][1][j][0] + labelStyle +
+          selectorName.innerHTML = obj[brand][j]["name"] + labelStyle +
             " - " + preciosText;
         }
       }
     },
     setItems: function () {
-      this.setInputNames(this.items);
-      return this.items;
+      return this.setInputNames(this.setOrder(this.items));
+    },
+    items: {
+      "smams": [{
+          name: "galletita rellena chocolate",
+          price: 75,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "galletita rellena frutilla",
+          price: 75,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "galletita rellena vainilla",
+          price: 75,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "crackers clásicas",
+          price: 90,
+          labels: ["sin tacc", " sin sal"]
+        },
+        {
+          name: "polvoron vainilla",
+          price: 82,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "polvoron coco",
+          price: 82,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "polvoron limón",
+          price: 82,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "galletitas de vainilla con chips de chocolate",
+          price: 120,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "grisines clásicos",
+          price: 138,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "pepas 150g",
+          price: 65,
+          labels: ["sin tacc"]
+        },
+      ],
+      "santa maria": [{
+          name: "galletita de chocolate/scons",
+          price: 115,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "alfajor de chocolate con dulce de leche",
+          price: 70,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "premezcla universal - 1kg",
+          price: 310,
+          labels: ["sin tacc"]
+        },
+      ],
+      "cerro azul": [{
+        name: "alfajor con mousse de vainilla",
+        price: 78,
+        labels: ["sin tacc", " vegano", "sin azúcar"]
+      }],
+      "doña pacha": [{
+          name: "harina de arroz",
+          price: 90,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "premezcla de pizza",
+          price: 145,
+          labels: ["sin tacc"]
+        }
+      ],
+      "olienka": [{
+        name: "trigo Sarraceno con alto contenido en fibra",
+        price: 210,
+        labels: ["sin tacc"]
+      }],
+      "delicel": [{
+          name: "premezcla de bizcochuelo chocolate",
+          price: 125,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "premezcla de bizcochuelo vainilla",
+          price: 125,
+          labels: ["sin tacc"]
+        }
+      ],
+      "egran": [{
+        name: "barra crocante sabor chocolate",
+        price: 30,
+        labels: ["sin tacc"]
+      }],
+      "macritas": [{
+        name: "nachos - 90gr.",
+        price: 75,
+        labels: ["sin tacc"]
+      }],
+      "cerealsol": [{
+          name: "Cereal sabor miel",
+          price: 60,
+          labels: ["sin tacc", "vegano"]
+        },
+        {
+          name: "Cereal sabor vainilla",
+          price: 60,
+          labels: ["sin tacc", "vegano"]
+        },
+        {
+          name: "Cereal sabor chocolate",
+          price: 60,
+          labels: ["sin tacc", "vegano"]
+        }
+      ],
+      "lennys": [{
+        name: "budín de vainilla marmolado/chips de chocolate",
+        price: 115,
+        labels: ["sin tacc"]
+      }],
+      "leiva": [{
+        name: "Almohaditas de frutilla - 180gr.",
+        price: 82,
+        labels: ["sin tacc"]
+      }],
+      "julicroc": [{
+          name: "tutucas - 90gr.",
+          price: 50,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "maní tostado - 100gr.",
+          price: 45,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "papás fritas - 70gr.",
+          price: 55,
+          labels: ["sin tacc"]
+        }
+      ],
+      "vrink": [{
+        name: "leche de almendras - 1L",
+        price: 200,
+        labels: ["sin tacc", "sin azúcar"]
+      }],
+      "nina´s": [{
+        name: "mantequilla de maní",
+        price: 200,
+        labels: ["sin tacc"]
+      }],
+      "macrozen": [{
+        name: "sal marina fina",
+        price: 115,
+        labels: ["sin tacc"]
+      }],
+      "risky dit": [{
+        name: "tostadas de arroz clásica",
+        price: 80,
+        labels: ["sin tacc", "sin sal"]
+      }],
+      "wakas": [{
+          name: "pastas multicereal de quinoa - 250gr.",
+          price: 135,
+          labels: ["sin tacc", "vegano"]
+        },
+        {
+          name: "pastas multicereal de chia - 250gr.",
+          price: 135,
+          labels: ["sin tacc", "vegano"]
+        }
+      ],
+      "lulemu": [{
+        name: "tostadas light",
+        price: 55,
+        labels: ["sin tacc"]
+      }],
+      "kapac": [{
+          name: "premezcla universal - 500gr.",
+          price: 126,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "polvo leudante - 400gr.",
+          price: 180,
+          labels: ["sin tacc"]
+        }
+      ],
+      "maní king": [{
+        name: "pasta de maní natural",
+        price: 270,
+        labels: ["sin tacc", "vegano"]
+      }],
+      "alicante": [{
+          name: "esencia de vainilla",
+          price: 110,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "coco rallado - 50gr",
+          price: 70,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "bicarbonato de sodio - 50gr",
+          price: 40,
+          labels: ["sin tacc"]
+        }
+      ],
+      "piache": [{
+          name: "galletitas endulzado con Stevia sabor banana y nuez",
+          price: 120,
+          labels: ["sin azúcar"]
+        },
+        {
+          name: "galletitas endulzado con Stevia sabor coco y avena",
+          price: 120,
+          labels: ["sin azúcar"]
+        }
+      ],
+      "meltaim": [{
+          name: "snack sabor : hierbas y queso",
+          price: 75,
+          labels: ["vegano"]
+        },
+        {
+          name: "snack sabor : oliva y Orégano",
+          price: 75,
+          labels: ["vegano"]
+        }
+      ],
+      "granja del sol": [{
+          name: "medallón Veggies de quinoa y Espinaca",
+          price: 120,
+          labels: ["vegano"]
+        },
+        {
+          name: "medallón Veggies de cebolla caramelizada y arroz yamani",
+          price: 120,
+          labels: ["vegano"]
+        }
+      ],
+      "lucchetti": [{
+        name: "milanesa de soja",
+        price: 185,
+        labels: ["vegetariano"]
+      }],
+      "granolas": [{
+          name: "mix clásico - avena arrollada, maní, pasas de uva, coco rallado, canela, jarabe demaíz y vainilla - 100gr.",
+          price: 40,
+          labels: [""]
+        },
+        {
+          name: "mix energético - copos de maíz, avena, maní, semillas de girasol, lino, sesamo, pasas de uva, frutas deshidratadas, almendras, vainilla, jarabe de maíz - 100gr.",
+          price: 50,
+          labels: [""]
+        },
+        {
+          name: "granola light - avena, miel, lino, fibra, pasas morochas, manzana deshidratada - 100gr.",
+          price: 38,
+          labels: [""]
+        },
+      ],
+      "frutos secos": [{
+          name: "mix Clásico - pasas negras, pasas rubias, almendras, nueces, avellanas, castañas de cajú, maní - 100gr.",
+          price: 70,
+          labels: [""]
+        },
+        {
+          name: "nuez mariposa - 100gr.",
+          price: 110,
+          labels: [""]
+        },
+        {
+          name: "bananas chips - 100gr.",
+          price: 75,
+          labels: [""]
+        },
+        {
+          name: "pasas de uva - 100gr.",
+          price: 28,
+          labels: [""]
+        },
+        {
+          name: "almendras nacionales - 100gr.",
+          price: 150,
+          labels: [""]
+        },
+        {
+          name: "castañas de cajú - 100gr.",
+          price: 135,
+          labels: [""]
+        },
+      ],
+      "cereales": [{
+          name: "copos de maíz - 100gr.",
+          price: 30,
+          labels: ["sin azúcar"]
+        },
+        {
+          name: "copos de maíz azucarados - 100gr.",
+          price: 40,
+          labels: [""]
+        },
+        {
+          name: "avena Instantánea - 1Kg",
+          price: 180,
+          labels: [""]
+        },
+        {
+          name: "avena tradicional - 1Kg",
+          price: 180,
+          labels: [""]
+        },
+        {
+          name: "Almohaditas sabor: chocolate - 100gr.",
+          price: 50,
+          labels: [""]
+        },
+        {
+          name: "Almohaditas sabor: avellana - 100gr.",
+          price: 46,
+          labels: [""]
+        },
+        {
+          name: "Almohaditas sabor: frutilla - 100gr.",
+          price: 46,
+          labels: [""]
+        },
+      ],
+      "harinas": [{
+          name: "harina integral - 1Kg.",
+          price: 65,
+          labels: [""]
+        },
+        {
+          name: "harina de avena - 1 Kg.",
+          price: 140,
+          labels: [""]
+        },
+        {
+          name: "fécula de mandioca - 1 Kg.",
+          price: 170,
+          labels: [""]
+        },
+        {
+          name: "fécula de garbanzo - 1 Kg.",
+          price: 110,
+          labels: [""]
+        }
+      ],
+      "semillas": [{
+          name: "chía - 100gr.",
+          price: 30,
+          labels: [""]
+        },
+        {
+          name: "girasol - 100Gr.",
+          price: 35,
+          labels: [""]
+        },
+        {
+          name: "lino - 100gr.",
+          price: 15,
+          labels: [""]
+        },
+        {
+          name: "mix - 100gr.",
+          price: 30,
+          labels: [""]
+        },
+        {
+          name: "sésamo integral - 100gr.",
+          price: 30,
+          labels: [""]
+        }
+      ],
+      "legumbres": [{
+          name: "soja texturizada - 100gr.",
+          price: 25,
+          labels: [""]
+        },
+        {
+          name: "soja texturizada sustituto pollo - 250gr.",
+          price: 75,
+          labels: [""]
+        },
+        {
+          name: "maní salado - 100gr.",
+          price: 20,
+          labels: [""]
+        },
+        {
+          name: "maní - 100gr.",
+          price: 18,
+          labels: ["sin sal"]
+        }
+      ],
+      "reposteria": [{
+          name: "cacao amargo - 100gr.",
+          price: 50,
+          labels: [""]
+        },
+        {
+          name: "azúcar mascabo - 500gr.",
+          price: 160,
+          labels: [""]
+        }
+      ],
+      "almeda": [{
+        name: "miel pura sólida - 480gr.",
+        price: 260,
+        labels: [""]
+      }],
+      "san agustin": [{
+        name: "aceite de oliva extra virgen con aceite de girasol - 1/2L",
+        price: 150,
+        labels: [""]
+      }],
     }
   };
 })();
@@ -297,11 +584,11 @@ let index = (function () {
         }
       }
     },
-    setPrecios: function (array) {
+    setPrecios: function (obj) {
       this.precios = [];
-      for (let i = 0; i < array.length; i++) {
-        for (let j = 0; j < array[i][1].length; j++) {
-          this.precios.push(array[i][1][j][1]);
+      for (let brand in obj) {
+        for (let j = 0; j < obj[brand].length; j++) {
+          this.precios.push(obj[brand][j]["price"]);
         }
       }
     },
@@ -359,7 +646,7 @@ let ticket = (function () {
       this.cacheDom();
       this.bindEvents();
       this.setPerosnalData(this.formInputs);
-      this.setArticulosSeleccionados();
+      this.setArticulosSeleccionados(this.items);
     },
     cacheDom: function () {
       this.articulos = document.getElementById("articulos-seleccionados");
@@ -374,25 +661,26 @@ let ticket = (function () {
       this.montoTotalContainer = 0;
       this.formInputs = ["a", "b", "c", "d", "e", "f", "g", "h", "i"];
     },
-    setMontoTotal: function (item, itemsCantidad) {
-      this.montoTotalContainer += item * itemsCantidad;
+    setMontoTotal: function (precio, itemsCantidad) {
+      this.montoTotalContainer += precio * itemsCantidad;
       this.montoTotal.innerHTML = this.montoTotalContainer;
     },
-    setArticulosSeleccionados: function () {
-      for (let i = 0; i < this.items.length; i++) {
-        for (let j = 0; j < this.items[i][1].length; j++) {
-          if (this.getParameterByName(this.items[i][1][j][3])) {
-            let itemsCantidad = this.getParameterByName(this.items[i][1][j][3]),
+    setArticulosSeleccionados: function (obj) {
+      for (let brand in obj) {
+        for (let j = 0; j < obj[brand].length; j++) {
+          if (this.getParameterByName(obj[brand][j]["index"])) {
+            let itemsCantidad = this.getParameterByName(obj[brand][j]["index"]),
               articuloSum = document.createElement("p");
             this.articulos.appendChild(articuloSum);
-            articuloSum.innerHTML = this.items[i][1][j][0] + " - " + "X " + itemsCantidad;
-            this.setMontoTotal(this.items[i][1][j][1], itemsCantidad);
+            articuloSum.innerHTML = obj[brand][j]["name"] + " - " + "X " + itemsCantidad;
+            this.setMontoTotal(obj[brand][j]["price"], itemsCantidad);
           }
         }
       }
     },
 
     getParameterByName: function (name) {
+
       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
       let regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
         results = regex.exec(location.search);
