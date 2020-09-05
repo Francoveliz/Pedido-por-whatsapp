@@ -113,48 +113,48 @@ let items = (function () {
     },
     items: {
       "smams": [{
-          name: "galletita rellena chocolate",
+          name: "galletita rellena chocolate - 105gr.",
           price: 75,
           labels: ["sin tacc"]
         },
         {
-          name: "galletita rellena frutilla",
+          name: "galletita rellena frutilla - 105gr.",
           price: 75,
           labels: ["sin tacc"]
         },
         {
-          name: "galletita rellena vainilla",
+          name: "galletita rellena vainilla - 105gr.",
           price: 75,
           labels: ["sin tacc"]
         },
         {
-          name: "crackers clásicas",
+          name: "crackers sin sal - 150gr.",
           price: 90,
           labels: ["sin tacc", " sin sal"]
         },
         {
-          name: "polvoron vainilla",
+          name: "crackers clásicas - 150gr.",
+          price: 90,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "polvoron vainilla - 130gr.",
           price: 82,
           labels: ["sin tacc"]
         },
         {
-          name: "polvoron coco",
+          name: "polvoron coco - 130gr.",
           price: 82,
           labels: ["sin tacc"]
         },
         {
-          name: "polvoron limón",
+          name: "polvoron limón - 130gr.",
           price: 82,
           labels: ["sin tacc"]
         },
         {
-          name: "galletitas de vainilla con chips de chocolate",
+          name: "galletitas de vainilla con chips de chocolate - 180gr.",
           price: 120,
-          labels: ["sin tacc"]
-        },
-        {
-          name: "grisines clásicos",
-          price: 138,
           labels: ["sin tacc"]
         },
         {
@@ -164,11 +164,6 @@ let items = (function () {
         },
       ],
       "santa maria": [{
-          name: "galletita de chocolate/scons",
-          price: 115,
-          labels: ["sin tacc"]
-        },
-        {
           name: "alfajor de chocolate con dulce de leche",
           price: 70,
           labels: ["sin tacc"]
@@ -185,18 +180,18 @@ let items = (function () {
         labels: ["sin tacc", " vegano", "sin azúcar"]
       }],
       "doña pacha": [{
-          name: "harina de arroz",
+          name: "harina de arroz - 500gr.",
           price: 90,
           labels: ["sin tacc"]
         },
         {
-          name: "premezcla de pizza",
+          name: "premezcla de pizza - 500gr.",
           price: 145,
           labels: ["sin tacc"]
         }
       ],
       "olienka": [{
-        name: "trigo Sarraceno con alto contenido en fibra",
+        name: "trigo Sarraceno con alto contenido en fibra - 500gr.",
         price: 210,
         labels: ["sin tacc"]
       }],
@@ -212,7 +207,7 @@ let items = (function () {
         }
       ],
       "egran": [{
-        name: "barra crocante sabor chocolate",
+        name: "barra crocante sabor chocolate - 20gr.",
         price: 30,
         labels: ["sin tacc"]
       }],
@@ -222,17 +217,17 @@ let items = (function () {
         labels: ["sin tacc"]
       }],
       "cerealsol": [{
-          name: "Cereal sabor miel",
+          name: "Cereal sabor miel - 130gr.",
           price: 60,
           labels: ["sin tacc", "vegano"]
         },
         {
-          name: "Cereal sabor vainilla",
+          name: "Cereal sabor vainilla - 130gr.",
           price: 60,
           labels: ["sin tacc", "vegano"]
         },
         {
-          name: "Cereal sabor chocolate",
+          name: "Cereal sabor chocolate - 130gr.",
           price: 60,
           labels: ["sin tacc", "vegano"]
         }
@@ -264,17 +259,28 @@ let items = (function () {
         }
       ],
       "vrink": [{
-        name: "leche de almendras - 1L",
-        price: 200,
-        labels: ["sin tacc", "sin azúcar"]
-      }],
+          name: "leche de almendras original - 1L",
+          price: 200,
+          labels: ["sin tacc"]
+        },
+        {
+          name: "leche de almendras sin azúcar - 1L",
+          price: 200,
+          labels: ["sin tacc", "sin azúcar"]
+        },
+        {
+          name: "leche de almendras sabor chocolate - 1L",
+          price: 200,
+          labels: ["sin tacc"]
+        }
+      ],
       "nina´s": [{
         name: "mantequilla de maní",
         price: 200,
         labels: ["sin tacc"]
       }],
       "macrozen": [{
-        name: "sal marina fina",
+        name: "sal marina fina - 500gr.",
         price: 115,
         labels: ["sin tacc"]
       }],
@@ -295,23 +301,17 @@ let items = (function () {
         }
       ],
       "lulemu": [{
-        name: "tostadas light",
+        name: "tostadas light - 120gr.",
         price: 55,
         labels: ["sin tacc"]
       }],
       "kapac": [{
-          name: "premezcla universal - 500gr.",
-          price: 126,
-          labels: ["sin tacc"]
-        },
-        {
-          name: "polvo leudante - 400gr.",
-          price: 180,
-          labels: ["sin tacc"]
-        }
-      ],
+        name: "premezcla universal - 500gr.",
+        price: 126,
+        labels: ["sin tacc"]
+      }, ],
       "maní king": [{
-        name: "pasta de maní natural",
+        name: "pasta de maní natural - 485gr. ",
         price: 270,
         labels: ["sin tacc", "vegano"]
       }],
@@ -325,11 +325,6 @@ let items = (function () {
           price: 70,
           labels: ["sin tacc"]
         },
-        {
-          name: "bicarbonato de sodio - 50gr",
-          price: 40,
-          labels: ["sin tacc"]
-        }
       ],
       "piache": [{
           name: "galletitas endulzado con Stevia sabor banana y nuez",
@@ -379,11 +374,6 @@ let items = (function () {
           price: 50,
           labels: [""]
         },
-        {
-          name: "granola light - avena, miel, lino, fibra, pasas morochas, manzana deshidratada - 100gr.",
-          price: 38,
-          labels: [""]
-        },
       ],
       "frutos secos": [{
           name: "mix Clásico - pasas negras, pasas rubias, almendras, nueces, avellanas, castañas de cajú, maní - 100gr.",
@@ -413,6 +403,11 @@ let items = (function () {
         {
           name: "castañas de cajú - 100gr.",
           price: 135,
+          labels: [""]
+        },
+        {
+          name: "mix deportivo (Bananas chips, almendras, pasas de uva, castañas de cajú, maní tostado pelado) - 100 gr.",
+          price: 70,
           labels: [""]
         },
       ],
@@ -505,11 +500,6 @@ let items = (function () {
           labels: [""]
         },
         {
-          name: "soja texturizada sustituto pollo - 250gr.",
-          price: 75,
-          labels: [""]
-        },
-        {
           name: "maní salado - 100gr.",
           price: 20,
           labels: [""]
@@ -529,18 +519,29 @@ let items = (function () {
           name: "azúcar mascabo - 500gr.",
           price: 160,
           labels: [""]
+        },
+        {
+          name: "azúcar rubia 100gr.",
+          price: 15,
+          labels: [""]
         }
       ],
-      "almeda": [{
-        name: "miel pura sólida - 480gr.",
-        price: 260,
-        labels: [""]
-      }],
       "san agustin": [{
         name: "aceite de oliva extra virgen con aceite de girasol - 1/2L",
         price: 150,
         labels: [""]
       }],
+      "orali": [{
+        name: "soja texturizada sustituto pollo - 250gr",
+        price: 75,
+        labels: [""]
+      }],
+      "mini arrocitas": [{
+        name: "galletas de arroz con baño de chocolate semiamargo - 53gr",
+        price: 60,
+        labels: [""]
+      }],
+
     }
   };
 })();
