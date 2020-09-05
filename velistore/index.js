@@ -173,12 +173,12 @@ let items = (function () {
           price: 310,
           labels: ["sin tacc"]
         },
+        {
+          name: "galletitas sabor vainilla",
+          price: 110,
+          labels: ["sin tacc"]
+        },
       ],
-      "cerro azul": [{
-        name: "alfajor con mousse de vainilla",
-        price: 78,
-        labels: ["sin tacc", " vegano", "sin azúcar"]
-      }],
       "doña pacha": [{
           name: "harina de arroz - 500gr.",
           price: 90,
@@ -206,11 +206,6 @@ let items = (function () {
           labels: ["sin tacc"]
         }
       ],
-      "egran": [{
-        name: "barra crocante sabor chocolate - 20gr.",
-        price: 30,
-        labels: ["sin tacc"]
-      }],
       "macritas": [{
         name: "nachos - 90gr.",
         price: 75,
@@ -432,18 +427,23 @@ let items = (function () {
           labels: [""]
         },
         {
-          name: "Almohaditas sabor: chocolate - 100gr.",
+          name: "almohaditas sabor: chocolate - 100gr.",
           price: 50,
           labels: [""]
         },
         {
-          name: "Almohaditas sabor: avellana - 100gr.",
+          name: "almohaditas sabor: avellana - 100gr.",
           price: 46,
           labels: [""]
         },
         {
-          name: "Almohaditas sabor: frutilla - 100gr.",
+          name: "almohaditas sabor: frutilla - 100gr.",
           price: 46,
+          labels: [""]
+        },
+        {
+          name: "aritos frutales - 100gr.",
+          price: 40,
           labels: [""]
         },
       ],
@@ -521,8 +521,18 @@ let items = (function () {
           labels: [""]
         },
         {
-          name: "azúcar rubia 100gr.",
+          name: "azúcar rubia - 100gr.",
           price: 15,
+          labels: [""]
+        },
+        {
+          name: "coco rallado - 100gr.",
+          price: 42,
+          labels: [""]
+        },
+        {
+          name: "azucar mascabo - 100gr.",
+          price: 22,
           labels: [""]
         }
       ],
