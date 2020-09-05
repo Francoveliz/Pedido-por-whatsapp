@@ -396,6 +396,7 @@ form #btn__submit {
 
 .ticket__container .ticket .ticket__section {
   margin-bottom: 3rem;
+  text-transform: capitalize;
 }
 
 .ticket__container .ticket .ticket__section > p::before {

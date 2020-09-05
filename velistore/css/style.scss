@@ -307,6 +307,7 @@ form {
   .ticket {
     .ticket__section {
       margin-bottom: 3rem;
+      text-transform: capitalize;
 
       &>p {
         &::before {
