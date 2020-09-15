@@ -40,7 +40,7 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 2rem;
-  background-color: #313828;
+  background-color: #000;
   color: #313828;
 }
 
@@ -346,6 +346,7 @@ form .datos-personales input {
   height: 2.5rem;
   padding: 0 1rem;
   margin-bottom: 2rem;
+  outline: 0;
 }
 
 form .datos-personales input::-webkit-input-placeholder {
