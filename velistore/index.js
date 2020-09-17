@@ -234,7 +234,7 @@ let items = (function () {
       }],
       "leiva": [{
         name: "Almohaditas de frutilla - 180gr.",
-        price: 82,
+        price: 80,
         labels: ["sin tacc"]
       }],
       "julicroc": [{
@@ -280,10 +280,16 @@ let items = (function () {
         labels: ["sin tacc"]
       }],
       "risky dit": [{
-        name: "tostadas de arroz clásica",
-        price: 80,
-        labels: ["sin tacc", "sin sal"]
-      }],
+          name: "tostadas de arroz clásica",
+          price: 80,
+          labels: ["sin tacc", "sin sal"]
+        },
+        {
+          name: "galletas de arroz clásica",
+          price: 65,
+          labels: ["sin sal"]
+        }
+      ],
       "wakas": [{
           name: "pastas multicereal de quinoa - 250gr.",
           price: 135,
@@ -369,6 +375,11 @@ let items = (function () {
           price: 50,
           labels: [""]
         },
+        {
+          name: "granola tradicional (Copos de maíz, Avena, Almendras, Maní, Manzana deshidratada y Girasol) - 100gr.",
+          price: 55,
+          labels: [""]
+        },
       ],
       "frutos secos": [{
           name: "mix Clásico - pasas negras, pasas rubias, almendras, nueces, avellanas, castañas de cajú, maní - 100gr.",
@@ -433,12 +444,12 @@ let items = (function () {
         },
         {
           name: "almohaditas sabor: avellana - 100gr.",
-          price: 46,
+          price: 50,
           labels: [""]
         },
         {
           name: "almohaditas sabor: frutilla - 100gr.",
-          price: 46,
+          price: 50,
           labels: [""]
         },
         {
@@ -446,25 +457,35 @@ let items = (function () {
           price: 40,
           labels: [""]
         },
+        {
+          name: "bolitas de chocolate - 100gr.",
+          price: 40,
+          labels: [""]
+        },
       ],
       "harinas": [{
-          name: "harina integral - 1Kg.",
-          price: 65,
+          name: "harina integral - 250gr.",
+          price: 16,
           labels: [""]
         },
         {
-          name: "harina de avena - 1 Kg.",
-          price: 140,
+          name: "harina de avena - 250gr.",
+          price: 35,
           labels: [""]
         },
         {
-          name: "fécula de mandioca - 1 Kg.",
-          price: 170,
+          name: "fécula de mandioca - 250gr.",
+          price: 45,
           labels: [""]
         },
         {
           name: "fécula de garbanzo - 1 Kg.",
           price: 110,
+          labels: [""]
+        },
+        {
+          name: "harina de garbanzo - 250gr.",
+          price: 30,
           labels: [""]
         }
       ],
@@ -516,18 +537,18 @@ let items = (function () {
           labels: [""]
         },
         {
-          name: "azúcar mascabo - 500gr.",
-          price: 160,
+          name: "azúcar mascabo - 250gr.",
+          price: 55,
           labels: [""]
         },
         {
-          name: "azúcar rubia - 100gr.",
-          price: 15,
+          name: "azúcar rubia - 250gr.",
+          price: 40,
           labels: [""]
         },
         {
           name: "coco rallado - 100gr.",
-          price: 42,
+          price: 40,
           labels: [""]
         },
         {
@@ -551,7 +572,16 @@ let items = (function () {
         price: 60,
         labels: [""]
       }],
-
+      "trevel": [{
+        name: "stevia - 100ml.",
+        price: 100,
+        labels: [""]
+      }],
+      "loma verde": [{
+        name: "milanesa de soja",
+        price: 140,
+        labels: [""]
+      }],
     }
   };
 })();
