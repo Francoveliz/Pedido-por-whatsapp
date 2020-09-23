@@ -550,12 +550,8 @@ let items = (function () {
           name: "coco rallado - 100gr.",
           price: 40,
           labels: [""]
-        },
-        {
-          name: "azucar mascabo - 100gr.",
-          price: 22,
-          labels: [""]
         }
+
       ],
       "san agustin": [{
         name: "aceite de oliva extra virgen con aceite de girasol - 1/2L",
