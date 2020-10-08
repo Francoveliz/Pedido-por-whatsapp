@@ -501,7 +501,7 @@ let items = {
   "sur bakery": [{
     name: "pan de hamburguesas - 4u.",
     price: 180,
-    labels: [""]
+    labels: ["sin tacc"]
   }],
   "dimax": [{
       name: "polvo para hornear - 200gr.",
@@ -558,7 +558,7 @@ let items = {
   "sturla": [{
     name: "semillas mix rústico (Girasol- Chía- Lino- Sésamo) - 250gr.",
     price: 110,
-    labels: [""]
+    labels: ["sin tacc"]
   }],
   "cerro azul": [{
     name: "alfajor de cacao relleno de vainilla - 250gr.",
