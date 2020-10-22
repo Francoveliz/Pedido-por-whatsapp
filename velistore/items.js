@@ -357,7 +357,7 @@ let items = {
     },
     {
       name: "bolitas de chocolate - 100gr.",
-      price: 40,
+      price: 50,
       labels: [""]
     },
     {
