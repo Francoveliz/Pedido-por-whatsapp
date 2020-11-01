@@ -198,11 +198,6 @@ let items = {
       labels: ["sin tacc", "vegano"]
     }
   ],
-  "lulemu": [{
-    name: "tostadas light - 120gr.",
-    price: 55,
-    labels: ["sin tacc"]
-  }],
 
   "maní king": [{
     name: "pasta de maní natural - 485gr. ",
@@ -258,11 +253,7 @@ let items = {
       labels: ["vegano"]
     }
   ],
-  "lucchetti": [{
-    name: "milanesa de soja",
-    price: 185,
-    labels: ["vegetariano"]
-  }],
+  
   "granolas": [{
       name: "mix clásico - avena arrollada, maní, pasas de uva, coco rallado, canela, jarabe demaíz y vainilla - 100gr.",
       price: 40,
@@ -291,7 +282,7 @@ let items = {
     },
     {
       name: "bananas chips - 100gr.",
-      price: 75,
+      price: 90,
       labels: [""]
     },
     {
@@ -310,8 +301,13 @@ let items = {
       labels: [""]
     },
     {
-      name: "mix deportivo (Bananas chips, almendras, pasas de uva, castañas de cajú, maní tostado pelado) - 100 gr.",
+      name: "mix deportivo (Bananas chips, almendras, pasas de uva, castañas de cajú, maní tostado pelado) - 100gr.",
       price: 70,
+      labels: [""]
+    },
+    {
+      name: "quinoa - 100gr.",
+      price: 55,
       labels: [""]
     },
   ],
@@ -322,7 +318,7 @@ let items = {
     },
     {
       name: "copos de maíz azucarados - 100gr.",
-      price: 40,
+      price: 45,
       labels: [""]
     },
     {
@@ -448,6 +444,11 @@ let items = {
       name: "coco rallado - 100gr.",
       price: 40,
       labels: [""]
+    },
+    {
+      name: "extracto de Malta - 100cc",
+      price: 130,
+      labels: [""]
     }
 
   ],
@@ -458,12 +459,12 @@ let items = {
   }],
   "orali": [{
       name: "soja texturizada sustituto pollo - 250gr",
-      price: 75,
+      price: 85,
       labels: [""]
     },
     {
       name: "soja texturizada sustituto carne - 250gr",
-      price: 75,
+      price: 85,
       labels: [""]
     }
 
@@ -498,11 +499,7 @@ let items = {
     price: 300,
     labels: ["sin tacc"]
   }],
-  "sur bakery": [{
-    name: "pan de hamburguesas - 4u.",
-    price: 180,
-    labels: ["sin tacc"]
-  }],
+
   "dimax": [{
       name: "polvo para hornear - 200gr.",
       price: 115,
@@ -571,10 +568,47 @@ let items = {
     labels: [""]
   }],
   "nutrizio": [{
-    name: "Granolita cereales - 200gr.",
+    name: "granolita cereales - 200gr.",
     price: 85,
     labels: ["sin tacc"]
   }],
+  "marbe": [{
+    name: "galletitas sabor Vainilla con chips de chocolate - 170gr.",
+    price: 75,
+    labels: [""]
+  },
+  {
+    name: "galletitas sabor Ciruela y pasas de uva - 170gr.",
+    price: 75,
+    labels: [""]
+  },
+  {
+    name: "galletitas sabor Chocolate con cáscara de Cacao - 170gr.",
+    price: 75,
+    labels: [""]
+  },
+  {
+    name: "galletitas sabor Frutos Rojos con arándanos - 170gr.",
+    price: 75,
+    labels: [""]
+  },
+  "sakanashi": [{
+    name: "salsa de Soja - 450cc.",
+    price: 150,
+    labels: [""]
+  }],
+  "cuarto creciente": [{
+    name: "mermelada sabor Arándanos - 300gr.",
+    price: 200,
+    labels: [""]
+  },
+  {
+    name: "mermelada sabor Frutos Rojos - 300gr.",
+    price: 200,
+    labels: [""]
+  }
+],
+]
 }
 
 export default items;
