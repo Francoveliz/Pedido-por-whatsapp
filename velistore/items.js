@@ -597,6 +597,11 @@ let items = {
     price: 150,
     labels: [""]
   }],
+ "prueba": [{
+    name: "producto prueba",
+    price: 75,
+    labels: ["sin tacc"]
+  }],
   "cuarto creciente": [{
     name: "mermelada sabor Arándanos - 300gr.",
     price: 200,
