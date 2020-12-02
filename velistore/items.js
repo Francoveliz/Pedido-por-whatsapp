@@ -1,4 +1,4 @@
-let items = {
+let items = [{
   "smams": [{
     name: "galletita rellena chocolate - 105gr.",
     price: 75,
@@ -686,6 +686,5 @@ let items = {
      price: 65, 
      labels: ["sin tacc, bajo en sodio"] 
      }],
-
-export default items;
-      }
+]
+export default items; }
