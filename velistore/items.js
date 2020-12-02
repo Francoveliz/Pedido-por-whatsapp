@@ -687,4 +687,5 @@ let items = {
      labels: ["sin tacc, bajo en sodio"] 
      }],
 
-export default items; }
+export default items;
+      }
