@@ -603,17 +603,17 @@ let items = {
       price: 50,
       labels: ["sin tacc"]
      }],
-      "Levex": [{
+      "levex": [{
       name: "Levadura instantanea - 10gr.",
       price: 25,
       labels: ["sin tacc"]
        }],
-      "Néctar": [{
+      "néctar": [{
       name: "miel de abejas - 340gr.",
       price: 230,
        labels: ["sin tacc"]
        }],
-      "Vegetalex": [{
+      "vegetalex": [{
        name: "medallón de verduras - 300gr.",
        price: 190,
        labels: [""]
@@ -628,63 +628,63 @@ let items = {
       price: 195,
        labels: [""]
    }],
-     "La francia": [{
-     name: "Pan rústico doble integral - 560gr.", 
+     "la francia": [{
+     name: "pan rústico doble integral - 560gr.", 
      price: 180,
       labels: [""]
     },
    { 
-      name: "Pan rústico integral con calabaza - 560gr."
+      name: "pan rústico integral con calabaza - 560gr."
       price: 180,
        labels: [""]
       }
      ],
-    "Levadin": [{
-      name: "Levadura nutricional - 100gr.",
+    "levadin": [{
+      name: "levadura nutricional - 100gr.",
       price: 85,
        labels: [""]
        }
        ],
-    "Dos hermanos": [{ 
-      name: "Gallatas de arroz slim integral clásicas",
+    "dos hermanos": [{ 
+      name: "gallatas de arroz slim integral clásicas",
       price: 75,
        labels: ["sin tacc"]
      }
      ],
-   "Natural pop": [{
-     name: "Hummus instantaneo a base de harina de garbanzos- 100gr.",
+   "natural pop": [{
+     name: "hummus instantaneo a base de harina de garbanzos- 100gr.",
      price: 75,
       labels: ["sin tacc, vegano"]
       }
      ],
-     "Kony"
-     name: "Stevia liquida - 200cc.",
+     "kony"
+     name: "stevia liquida - 200cc.",
      price: 170,
       labels: [""]
       } 
        ],
-      "Sales": [{
+      "sales": [{
       name: "Sal de himalaya - 100gr.",
       price: 25,
         labels: [""]
        }
        ],
-     "Riera": [{
-      name: "Tostadas de arroz clásicas",
+     "riera": [{
+      name: "tostadas de arroz clásicas",
       price: 100,
       labels: ["sin tacc"]
      },
      { 
-      name: "Tostadas de arroz sin sal",
+      name: "tostadas de arroz sin sal",
       price: 100,
       labels: ["sin tacc"]
     }
      ],
-    "Celienergy": [{  
-     name: "Alfajor de Nuez relleno de dulce de leche - 50gr.",
+      
+    "celienergy": [{  
+     name: "alfajor de Nuez relleno de dulce de leche - 50gr.",
      price: 65, 
      labels: ["sin tacc, bajo en sodio"] 
      }],
-   }
 
-export default items;
+export default items; }
