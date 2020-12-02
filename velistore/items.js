@@ -45,12 +45,12 @@ let items = {
     labels: ["sin tacc"]
   },
   {
-    name: "galletitas de pepas - 150g",
+    name: "galletitas de pepas - 150gr.",
     price: 65,
     labels: ["sin tacc"]
   },
    {
-      name: "galletitas de vainilla colegial - 150g",
+      name: "galletitas de vainilla colegial - 150gr.",
       price: 65,
       labels: ["sin tacc"]
     },
@@ -93,12 +93,12 @@ let items = {
     labels: ["sin tacc"]
   }],
   "delicel": [{
-    name: "premezcla de bizcochuelo chocolate",
+    name: "premezcla de bizcochuelo chocolate.",
     price: 125,
     labels: ["sin tacc"]
   },
   {
-    name: "premezcla de bizcochuelo vainilla",
+    name: "premezcla de bizcochuelo vainilla.",
     price: 125,
     labels: ["sin tacc"]
   }
@@ -123,12 +123,14 @@ let items = {
     name: "budín de vainilla chips de chocolate",
     price: 115,
     labels: ["sin tacc"]
-  }],
+  }
+],
   "leiva": [{
     name: "Almohaditas de frutilla - 180gr.",
     price: 80,
     labels: ["sin tacc"]
-  }],
+  }
+],
   "julicroc": [{
     name: "tutucas - 90gr.",
     price: 50,
@@ -451,18 +453,18 @@ let items = {
   }
   ],
   "san agustin": [{
-    name: "aceite de oliva extra virgen con aceite de girasol - 1/2L",
+    name: "aceite de oliva extra virgen con aceite de girasol - 1/2L.",
     price: 150,
     labels: [""]
   }
   ],
   "orali": [{
-    name: "soja texturizada sustituto pollo - 250gr",
+    name: "soja texturizada sustituto pollo - 250gr.",
     price: 85,
     labels: [""]
   },
   {
-    name: "soja texturizada sustituto carne - 250gr",
+    name: "soja texturizada sustituto carne - 250gr.",
     price: 85,
     labels: [""]
   }
@@ -475,13 +477,13 @@ let items = {
   } 
   ],
   "loma verde": [{
-    name: "milanesa de soja",
+    name: "milanesa de soja.",
     price: 140,
     labels: [""]
   } 
   ],
   "dale coco": [{
-    name: "leche de coco - 1L",
+    name: "leche de coco - 1L.",
     price: 220,
     labels: ["sin tacc", "sin azúcar", "vegano"]
   }
@@ -509,17 +511,17 @@ let items = {
     labels: ["sin tacc"]
   },
   {
-    name: "milanesa de soja",
+    name: "milanesa de soja.",
     price: 105,
     labels: [""]
   },
   {
-    name: "tapa de empanada",
+    name: "tapa de empanada.",
     price: 115,
     labels: ["sin tacc"]
   },
   {
-    name: "tapa de pascualina",
+    name: "tapa de pascualina.",
     price: 125,
     labels: ["sin tacc"]
   }
@@ -635,48 +637,55 @@ let items = {
       name: "Pan rústico integral con calabaza - 560gr."
       price: 180,
        labels: [""]
-      }],
+      }
+     ],
     "Levadin": [{
       name: "Levadura nutricional - 100gr.",
       price: 85,
        labels: [""]
-       }],
+       }
+       ],
     "Dos hermanos": [{ 
       name: "Gallatas de arroz slim integral clásicas"
       price: 75,
        labels: ["sin tacc"]
-     }],
+     }
+     ],
    "Natural pop": [{
      name: "Hummus instantaneo a base de harina de garbanzos- 100gr.",
      price: 75,
       labels: ["sin tacc, vegano"]
-      }],
+      }
+     ],
      "Kony"
      name: "Stevia liquida - 200cc.",
      price: 170,
       labels: [""]
-      }],
+      } 
+       ],
       "Sales": [{
       name: "Sal de himalaya - 100gr.",
       price: 25,
         labels: [""]
-       }],
+       }
+       ],
      "Riera": [{
       name: "Tostadas de arroz clásicas",
       price: 100,
       labels: ["sin tacc"]
      },
- { 
+     { 
       name: "Tostadas de arroz sin sal",
       price: 100,
       labels: ["sin tacc"]
-
-    }],
+    }
+     ],
     "Celienergy": [{  
-     name: "Alfajor de Nuez relleno de dulce de leche - 50gr."
+     name: "Alfajor de Nuez relleno de dulce de leche - 50gr.",
      price: 65, 
      labels: ["sin tacc, bajo en sodio"] 
-     }],
+     }
+      ],
    }
 
 export default items;
