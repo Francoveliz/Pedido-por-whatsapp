@@ -123,14 +123,14 @@ let items = {
     name: "budín de vainilla chips de chocolate",
     price: 115,
     labels: ["sin tacc"]
-  }
-],
+   }
+   ],
   "leiva": [{
     name: "Almohaditas de frutilla - 180gr.",
     price: 80,
     labels: ["sin tacc"]
   }
-],
+  ],
   "julicroc": [{
     name: "tutucas - 90gr.",
     price: 50,
@@ -173,13 +173,13 @@ let items = {
     price: 210,
     labels: ["sin tacc"]
   }
-],
+   ],
   "macrozen": [{
     name: "sal marina fina - 500gr.",
     price: 120,
     labels: ["sin tacc"]
   }
-],
+  ],
   "risky dit": [{
     name: "tostadas de arroz Sin sal",
     price: 80,
@@ -203,7 +203,7 @@ let items = {
     price: 270,
     labels: ["sin tacc", "vegano"]
   }
-],
+  ],
   "alicante": [{
     name: "esencia de vainilla",
     price: 110,
