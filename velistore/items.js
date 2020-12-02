@@ -687,5 +687,4 @@ let items = {
      }]
    }
 
-export default items;
-}
+export default items= }
