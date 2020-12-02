@@ -592,7 +592,7 @@ let items = {
     name: "mermelada sabor Frutos Rojos - 300gr.",
     price: 200,
     labels: [""]
-  }]
+  }],
  "yin yang": [{
       name: "harina de garbanzos - 250gr.",
       price: 75,
