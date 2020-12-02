@@ -199,7 +199,7 @@ let items = {
   ],
 
   "maní king": [{
-    name: "pasta de maní natural - 485gr. ",
+    name: "pasta de maní natural sin azúcar/sin sal - 485gr. ",
     price: 270,
     labels: ["sin tacc", "vegano"]
   }
@@ -210,7 +210,7 @@ let items = {
     labels: ["sin tacc"]
   },
   {
-    name: "coco rallado - 50gr",
+    name: "coco rallado - 50gr.",
     price: 70,
     labels: ["sin tacc"]
   }
@@ -302,7 +302,7 @@ let items = {
   },
   {
    name: "mix sin pasas de uva (nueces, castañas de caju, mani, almendras) - 100gr.",
-     price: 100
+     price: 100,
     labels: [""]
   } 
   ],
@@ -384,7 +384,7 @@ let items = {
     labels: [""]
   },
   {
-    name: "girasol - 100gr.",
+    name: "girasol pelado - 100gr.",
     price: 35,
     labels: [""]
   },
@@ -402,7 +402,7 @@ let items = {
     name: "sésamo integral - 100gr.",
     price: 30,
     labels: [""]
-  }
+  },
  {
    name: "quinoa - 100gr.",
    price: 55,
@@ -646,7 +646,7 @@ let items = {
        }
        ],
     "Dos hermanos": [{ 
-      name: "Gallatas de arroz slim integral clásicas"
+      name: "Gallatas de arroz slim integral clásicas",
       price: 75,
        labels: ["sin tacc"]
      }
