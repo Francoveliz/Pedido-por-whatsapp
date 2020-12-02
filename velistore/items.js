@@ -170,12 +170,14 @@ let items = {
     name: "mantequilla de maní",
     price: 210,
     labels: ["sin tacc"]
-  }],
+  }
+],
   "macrozen": [{
     name: "sal marina fina - 500gr.",
     price: 120,
     labels: ["sin tacc"]
-  }],
+  }
+],
   "risky dit": [{
     name: "tostadas de arroz Sin sal",
     price: 80,
@@ -198,7 +200,8 @@ let items = {
     name: "pasta de maní natural - 485gr. ",
     price: 270,
     labels: ["sin tacc", "vegano"]
-  }],
+  }
+],
   "alicante": [{
     name: "esencia de vainilla",
     price: 110,
@@ -208,7 +211,7 @@ let items = {
     name: "coco rallado - 50gr",
     price: 70,
     labels: ["sin tacc"]
-  },
+  }
   ],
   "piache": [{
     name: "galletitas endulzado con Stevia sabor banana y nuez",
@@ -219,7 +222,7 @@ let items = {
     name: "galletitas endulzado con Stevia sabor coco y avena",
     price: 120,
     labels: ["sin azúcar"]
-  },
+  }
   ],
   "meltaim": [{
     name: "snack sabor : hierbas y queso",
@@ -299,7 +302,7 @@ let items = {
    name: "mix sin pasas de uva (nueces, castañas de caju, mani, almendras) - 100gr.",
      price: 100
     labels: [""]
-} 
+  } 
   ],
   "cereales": [{
     name: "copos de maíz - 100gr.",
@@ -402,7 +405,8 @@ let items = {
    name: "quinoa - 100gr.",
    price: 55,
     labels: [""]
-    }],
+    }
+   ],
 
   "legumbres": [{
     name: "soja texturizada - 100gr.",
@@ -410,7 +414,7 @@ let items = {
     labels: [""]
   },
   {
-    name: "maní - 100gr.",
+    name: "maní sin sal - 100gr.",
     price: 18,
     labels: ["sin sal"]
   }
@@ -445,13 +449,13 @@ let items = {
     price: 130,
     labels: [""]
   }
-
   ],
   "san agustin": [{
     name: "aceite de oliva extra virgen con aceite de girasol - 1/2L",
     price: 150,
     labels: [""]
-  }],
+  }
+  ],
   "orali": [{
     name: "soja texturizada sustituto pollo - 250gr",
     price: 85,
@@ -462,29 +466,32 @@ let items = {
     price: 85,
     labels: [""]
   }
-
   ],
 
   "trevel": [{
     name: "stevia - 100ml.",
     price: 100,
     labels: [""]
-  }],
+  } 
+  ],
   "loma verde": [{
     name: "milanesa de soja",
     price: 140,
     labels: [""]
-  }],
+  } 
+  ],
   "dale coco": [{
     name: "leche de coco - 1L",
     price: 220,
     labels: ["sin tacc", "sin azúcar", "vegano"]
-  }],
+  }
+  ],
   "prado del rey": [{
     name: "aceite de oliva extra virgen - 500ml.",
     price: 220,
     labels: [""]
-  }],
+  } 
+  ],
   "valle organico": [{
     name: "aceite de coco neutro - 250ml.",
     price: 300,
@@ -521,27 +528,31 @@ let items = {
     name: "harina de Maíz - 500gr.",
     price: 120,
     labels: ["sin tacc"]
-  }],
+  } 
+  ],
   "sturla": [{
     name: "semillas mix rústico (Girasol- Chía- Lino- Sésamo) - 250gr.",
     price: 110,
     labels: ["sin tacc"]
   },
-   {
+  {
        name: "Granola con pasas de uva - 200gr.",
        price: 220,
        labels: ["sin tacc"]
-    }],
+    } 
+    ],
   "cerro azul": [{
     name: "alfajor de cacao relleno de vainilla - 250gr.",
     price: 80,
     labels: ["sin tacc", "sin azúcar", "vegano"]
-  }],
+  } 
+  ],
   "argen diet": [{
     name: "sal sin sodio - 70gr.",
     price: 180,
     labels: [""]
-  }],
+  } 
+  ],
   "marbe": [{
     name: "galletitas sabor Vainilla con chips de chocolate - 170gr.",
     price: 75,
@@ -561,12 +572,14 @@ let items = {
     name: "galletitas sabor Frutos Rojos con arándanos - 170gr.",
     price: 75,
     labels: [""]
-  }],
+  } 
+  ],
   "sakanashi": [{
     name: "salsa de Soja - 450cc.",
     price: 150,
     labels: [""]
-  }],
+  }
+  ],
 
   "cuarto creciente": [{
     name: "mermelada sabor Arándanos - 300gr.",
