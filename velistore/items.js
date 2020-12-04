@@ -521,5 +521,51 @@ let items = {
     price: 300,
     labels: ["sin tacc"]
   }],
+
+"dimax": [{
+    name: "polvo para hornear - 200gr.",
+    price: 115,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "Premezcla universal - 1Kg.",
+    price: 200,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "milanesa de soja.",
+    price: 105,
+    labels: [""]
+  },
+  {
+    name: "tapa de empanada.",
+    price: 115,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "tapa de pascualina.",
+    price: 125,
+    labels: ["sin tacc"]
+  }
+  ],
+
+  "celidarina": [{
+    name: "harina de Maíz - 500gr.",
+    price: 120,
+    labels: ["sin tacc"]
+  } 
+  ],
+
+  "sturla": [{
+    name: "semillas mix rústico (Girasol- Chía- Lino- Sésamo) - 250gr.",
+    price: 110,
+    labels: ["sin tacc"]
+  },
+  {
+       name: "Granola con pasas de uva - 200gr.",
+       price: 220,
+       labels: ["sin tacc"]
+    } 
+    ],
 }
 export default items; 
