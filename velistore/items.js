@@ -661,7 +661,7 @@ let items = {
      name: "stevia liquida - 200cc.",
      price: 170,
       labels: [""]
-      } 
+      }
        ],
       "sales": [{
       name: "Sal de himalaya - 100gr.",
@@ -685,6 +685,7 @@ let items = {
      name: "alfajor de Nuez relleno de dulce de leche - 50gr.",
      price: 65, 
      labels: ["sin tacc, bajo en sodio"] 
-     }],
+     }
+  ],
  }
 export default items; 
