@@ -104,6 +104,7 @@ let items = {
     labels: ["sin tacc"]
   }
   ],
+
   "cerealsol": [{
     name: "Cereal sabor miel - 130gr.",
     price: 60,
@@ -120,16 +121,96 @@ let items = {
     labels: ["sin tacc", "vegano"]
   }
   ],
+
   "lennys": [{
     name: "budín de vainilla chips de chocolate",
     price: 115,
     labels: ["sin tacc"]
    }
    ],
+
   "leiva": [{
     name: "Almohaditas de frutilla - 180gr.",
     price: 80,
     labels: ["sin tacc"]
+  }],
+
+"julicroc": [{
+    name: "tutucas - 90gr.",
+    price: 50,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "maní tostado - 100gr.",
+    price: 45,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "papás fritas - 70gr.",
+    price: 55,
+    labels: ["sin tacc"]
+  }
+  ],
+
+  "vrink": [{
+    name: "leche de almendras original - 1L",
+    price: 200,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "leche de almendras sin azúcar - 1L",
+    price: 200,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "leche de almendras sabor chocolate - 1L",
+    price: 200,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "leche de maní sabor chocolate - 1L",
+    price: 160,
+    labels: ["sin tacc", "sin lactosa"]
+  }
+  ],
+
+  "nina´s": [{
+    name: "mantequilla de maní",
+    price: 210,
+    labels: ["sin tacc"]
+  }
+   ],
+
+  "macrozen": [{
+    name: "sal marina fina - 500gr.",
+    price: 120,
+    labels: ["sin tacc"]
+  }
+  ],
+
+  "risky dit": [{
+    name: "tostadas de arroz Sin sal",
+    price: 80,
+    labels: ["sin tacc"]
+  }
+  ],
+
+  "wakas": [{
+    name: "pastas multicereal de quinoa - 250gr.",
+    price: 145,
+    labels: ["sin tacc", "vegano"]
+  },
+  {
+    name: "pastas multicereal de chia - 250gr.",
+    price: 145,
+    labels: ["sin tacc", "vegano"]
+  }
+  ],
+
+  "maní king": [{
+    name: "pasta de maní natural sin azúcar/sin sal - 485gr. ",
+    price: 270,
+    labels: ["sin tacc", "vegano"]
   }],
 }
 export default items; 
