@@ -65,5 +65,20 @@ let items = {
     labels: ["sin tacc"]
   }
   ],
-}
+ "santa maria": [{
+    name: "premezcla universal - 1kg",
+    price: 310,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "galletitas sabor vainilla",
+    price: 110,
+    labels: ["sin tacc"]
+  },
+    {
+      name: "galletitas sabor chocolate",
+      price: 110,
+      labels: ["sin tacc"]
+    }],
+   }
 export default items; 
