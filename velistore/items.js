@@ -475,5 +475,31 @@ let items = {
     labels: [""]
   }
   ],
+
+ "orali": [{
+    name: "soja texturizada sustituto pollo - 250gr.",
+    price: 85,
+    labels: [""]
+  },
+  {
+    name: "soja texturizada sustituto carne - 250gr.",
+    price: 85,
+    labels: [""]
+  }
+  ],
+
+  "trevel": [{
+    name: "stevia - 100ml.",
+    price: 100,
+    labels: [""]
+  } 
+  ],
+
+  "loma verde": [{
+    name: "milanesa de soja.",
+    price: 140,
+    labels: [""]
+  } 
+  ],
 }
 export default items; 
