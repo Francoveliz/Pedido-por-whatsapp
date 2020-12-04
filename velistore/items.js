@@ -638,5 +638,27 @@ let items = {
       price: 25,
       labels: ["sin tacc"]
        }],
+
+  "néctar": [{
+      name: "miel de abejas - 340gr.",
+      price: 230,
+       labels: ["sin tacc"]
+       }],
+
+      "vegetalex": [{
+       name: "medallón de verduras - 300gr.",
+       price: 190,
+       labels: [""]
+    },
+   { 
+       name: "milanesa de soja tradicional.",
+       price: 160,
+        labels: [""]
+   },
+   { 
+      name: "salchichas de soja 5u.",
+      price: 195,
+       labels: [""]
+   }],
 }
 export default items; 
