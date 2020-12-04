@@ -501,5 +501,25 @@ let items = {
     labels: [""]
   } 
   ],
+
+ "dale coco": [{
+    name: "leche de coco - 1L.",
+    price: 220,
+    labels: ["sin tacc", "sin azúcar", "vegano"]
+  }
+  ],
+
+  "prado del rey": [{
+    name: "aceite de oliva extra virgen - 500ml.",
+    price: 220,
+    labels: [""]
+  } 
+  ],
+
+  "valle organico": [{
+    name: "aceite de coco neutro - 250ml.",
+    price: 300,
+    labels: ["sin tacc"]
+  }],
 }
 export default items; 
