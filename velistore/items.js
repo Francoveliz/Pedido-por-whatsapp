@@ -65,7 +65,7 @@ let items = {
     labels: ["sin tacc"]
   }
   ],
-{
+
  "santa maria": [{
     name: "premezcla universal - 1kg",
     price: 310,
