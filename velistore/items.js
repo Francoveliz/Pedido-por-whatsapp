@@ -238,24 +238,24 @@ let items = {
   ],
 
  "meltaim": [{
-    name: "snack sabor : hierbas y queso",
+    name: "snack sabor finas hierbas y queso",
     price: 90,
     labels: ["vegano"]
   },
   {
-    name: "snack sabor : oliva y Orégano",
+    name: "snack sabor oliva y Orégano",
     price: 90,
     labels: ["vegano"]
   }
   ],
 
   "granja del sol": [{
-    name: "medallón Veggies de quinoa y Espinaca",
+    name: "medallón veggies de quinoa y espinaca",
     price: 310,
     labels: ["vegano"]
   },
   {
-    name: "medallón Veggies de cebolla caramelizada y arroz yamani",
+    name: "medallón veggies de cebolla caramelizada y arroz yamani",
     price: 310,
     labels: ["vegano"]
   }
