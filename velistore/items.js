@@ -212,6 +212,29 @@ let items = {
     price: 270,
     labels: ["sin tacc", "vegano"]
   }],
-}
 
+"alicante": [{
+    name: "esencia de vainilla",
+    price: 110,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "coco rallado - 50gr.",
+    price: 70,
+    labels: ["sin tacc"]
+  }
+  ],
+
+  "piache": [{
+    name: "galletitas endulzado con Stevia sabor banana y nuez",
+    price: 120,
+    labels: ["sin azúcar"]
+  },
+  {
+    name: "galletitas endulzado con Stevia sabor coco y avena",
+    price: 120,
+    labels: ["sin azúcar"]
+  }
+  ],
+}
 export default items; 
