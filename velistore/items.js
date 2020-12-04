@@ -393,6 +393,49 @@ let items = {
     labels: [""]
   }
   ],
-}
 
+"semillas": [{
+    name: "chía - 100gr.",
+    price: 35,
+    labels: [""]
+  },
+  {
+    name: "girasol pelado - 100gr.",
+    price: 35,
+    labels: [""]
+  },
+  {
+    name: "lino - 100gr.",
+    price: 20,
+    labels: [""]
+  },
+  {
+    name: "mix - 100gr.",
+    price: 30,
+    labels: [""]
+  },
+  {
+    name: "sésamo integral - 100gr.",
+    price: 30,
+    labels: [""]
+  },
+ {
+   name: "quinoa - 100gr.",
+   price: 55,
+    labels: [""]
+    }
+   ],
+
+  "legumbres": [{
+    name: "soja texturizada - 100gr.",
+    price: 25,
+    labels: [""]
+  },
+  {
+    name: "maní sin sal - 100gr.",
+    price: 18,
+    labels: ["sin sal"]
+  }
+  ],
+}
 export default items; 
