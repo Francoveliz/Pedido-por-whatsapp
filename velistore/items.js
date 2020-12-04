@@ -610,5 +610,33 @@ let items = {
     labels: [""]
   }
   ],
+
+"cuarto creciente": [{
+    name: "mermelada sabor Arándanos - 300gr.",
+    price: 200,
+    labels: [""]
+  },
+  {
+    name: "mermelada sabor Frutos Rojos - 300gr.",
+    price: 200,
+    labels: [""]
+  }],
+
+ "yin yang": [{
+      name: "harina de garbanzos - 250gr.",
+      price: 75,
+      labels: ["sin tacc"]
+       },
+      {
+       name: "semillas pop (Sésamo,chía,lino,azucar organica)",
+      price: 50,
+      labels: ["sin tacc"]
+     }],
+
+      "levex": [{
+      name: "Levadura instantanea - 10gr.",
+      price: 25,
+      labels: ["sin tacc"]
+       }],
 }
 export default items; 
