@@ -81,5 +81,11 @@ let items = {
       price: 110,
       labels: ["sin tacc"]
     }],
-   }
+  
+ "doña pacha": [{
+    name: "premezcla de pizza - 500gr.",
+    price: 145,
+    labels: ["sin tacc"]
+  }],
+}
 export default items; 
