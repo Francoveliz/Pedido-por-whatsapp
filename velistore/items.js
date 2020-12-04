@@ -660,5 +660,31 @@ let items = {
       price: 195,
        labels: [""]
    }],
+
+ "la francia": [{
+     name: "pan rústico doble integral - 560gr.", 
+     price: 180,
+      labels: [""]
+    },
+   { 
+      name: "pan rústico integral con calabaza - 560gr."
+      price: 180,
+       labels: [""]
+      }
+     ],
+
+    "levadin": [{
+      name: "levadura nutricional - 100gr.",
+      price: 85,
+       labels: [""]
+       }
+       ],
+
+    "dos hermanos": [{ 
+      name: "gallatas de arroz slim integral clásicas",
+      price: 75,
+       labels: ["sin tacc"]
+     }
+     ],
 }
 export default items; 
