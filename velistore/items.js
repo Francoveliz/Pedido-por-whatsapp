@@ -394,7 +394,7 @@ let items = {
   }
   ],
 
-"semillas": [{
+ "semillas": [{
     name: "chía - 100gr.",
     price: 35,
     labels: [""]
@@ -422,9 +422,8 @@ let items = {
  {
    name: "quinoa - 100gr.",
    price: 55,
-    labels: [""]
-    }
-   ],
+   labels: [""]
+   }],
 
   "legumbres": [{
     name: "soja texturizada - 100gr.",
