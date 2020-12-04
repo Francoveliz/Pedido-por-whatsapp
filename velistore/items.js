@@ -661,19 +661,17 @@ let items = {
        labels: [""]
    }
    ],
-
-   "la francia": [{
+     "la francia": [{
      name: "pan rústico doble integral - 560gr.", 
      price: 180,
      labels: [""]
     },
    { 
-      name: "pan rústico integral con calabaza - 560gr."
+      name: "pan rústico integral con calabaza - 560gr.",
       price: 180,
       labels: [""]
       }
      ],
-
     "levadin": [{
       name: "levadura nutricional - 100gr.",
       price: 85,
