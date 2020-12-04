@@ -87,5 +87,49 @@ let items = {
     price: 145,
     labels: ["sin tacc"]
   }],
+
+ "olienka": [{
+    name: "trigo Sarraceno con alto contenido en fibra - 500gr.",
+    price: 210,
+    labels: ["sin tacc"]
+  }],
+  "delicel": [{
+    name: "premezcla de bizcochuelo chocolate.",
+    price: 125,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "premezcla de bizcochuelo vainilla.",
+    price: 125,
+    labels: ["sin tacc"]
+  }
+  ],
+  "cerealsol": [{
+    name: "Cereal sabor miel - 130gr.",
+    price: 60,
+    labels: ["sin tacc", "vegano"]
+  },
+  {
+    name: "Cereal sabor vainilla - 130gr.",
+    price: 60,
+    labels: ["sin tacc", "vegano"]
+  },
+  {
+    name: "Cereal sabor chocolate - 130gr.",
+    price: 60,
+    labels: ["sin tacc", "vegano"]
+  }
+  ],
+  "lennys": [{
+    name: "budín de vainilla chips de chocolate",
+    price: 115,
+    labels: ["sin tacc"]
+   }
+   ],
+  "leiva": [{
+    name: "Almohaditas de frutilla - 180gr.",
+    price: 80,
+    labels: ["sin tacc"]
+  }],
 }
 export default items; 
