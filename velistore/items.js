@@ -721,11 +721,11 @@ let items = {
     }
      ],
       
-    "celienergy": [{  
-     name: "alfajor de Nuez relleno de dulce de leche - 50gr.",
-     price: 65, 
-     labels: ["sin tacc, bajo en sodio"] 
-     }],
+"celienergy": [{  
+name: "alfajor de nuez relleno de dulce de leche - 50gr.",
+price: 65, 
+labels: ["sin tacc, bajo en sodio"] 
+}],
 }
 
 export default items; 
