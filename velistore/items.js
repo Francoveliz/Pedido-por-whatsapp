@@ -659,7 +659,8 @@ let items = {
       name: "salchichas de soja 5u.",
       price: 195,
        labels: [""]
-   }],
+   }
+   ],
 
    "la francia": [{
      name: "pan rústico doble integral - 560gr.", 
@@ -683,7 +684,7 @@ let items = {
     "dos hermanos": [{ 
       name: "gallatas de arroz slim integral clásicas.",
       price: 75,
-       labels: ["sin tacc"]
+      labels: ["sin tacc"]
      }
      ],
 }
