@@ -661,7 +661,7 @@ let items = {
        labels: [""]
    }],
 
- "la francia": [{
+   "la francia": [{
      name: "pan rústico doble integral - 560gr.", 
      price: 180,
       labels: [""]
