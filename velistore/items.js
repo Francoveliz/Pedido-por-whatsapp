@@ -685,5 +685,44 @@ let items = {
       labels: ["sin tacc"]
      }
      ],
+
+   "natural pop": [{
+     name: "hummus instantaneo a base de harina de garbanzos- 100gr.",
+     price: 75,
+      labels: ["sin tacc, vegano"]
+      }
+     ],
+
+     "kony" : [{
+     name: "stevia liquida - 200cc.",
+     price: 170,
+      labels: [""]
+      } 
+       ],
+
+      "sales": [{
+      name: "Sal de himalaya - 100gr.",
+      price: 25,
+        labels: [""]
+       }
+       ],
+
+     "riera": [{
+      name: "tostadas de arroz clásicas",
+      price: 100,
+      labels: ["sin tacc"]
+     },
+     { 
+      name: "tostadas de arroz sin sal",
+      price: 100,
+      labels: ["sin tacc"]
+    }
+     ],
+      
+    "celienergy": [{  
+     name: "alfajor de Nuez relleno de dulce de leche - 50gr.",
+     price: 65, 
+     labels: ["sin tacc, bajo en sodio"] 
+     }],
 }
 export default items; 
