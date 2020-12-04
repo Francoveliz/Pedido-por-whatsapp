@@ -260,5 +260,139 @@ let items = {
     labels: ["vegano"]
   }
   ],
+
+"granolas": [{
+    name: "mix clásica - avena arrollada, maní, pasas de uva, coco rallado, canela, jarabe demaíz y vainilla - 100gr.",
+    price: 45,
+    labels: [""]
+  },
+  {
+    name: "mix energético - copos de maíz, avena, maní, semillas de girasol, lino, sesamo, pasas de uva, frutas deshidratadas, almendras, vainilla, jarabe de maíz - 100gr.",
+    price: 55,
+    labels: [""]
+  },
+  {
+    name: "granola tradicional (Copos de maíz, Avena, Almendras, Maní, Manzana deshidratada y Girasol) - 100gr.",
+    price: 60,
+    labels: [""]
+  },
+    {
+    name: "granola especial (avena, arándanos, pasas de uva, almendras,chía, quinoa, copos de arroz, nueces, castañas de cajú, manzana deshidratada, vainilla, jarabe de maíz) - 100g.",
+    price: 70
+     labels: [""]
+    }
+  ],
+
+  "frutos secos": [{
+    name: "mix Clásico - pasas negras, pasas rubias, almendras, nueces, avellanas, castañas de cajú, maní - 100gr.",
+    price: 70,
+    labels: [""]
+  },
+  {
+    name: "nuez mariposa - 100gr.",
+    price: 130,
+    labels: [""]
+  },
+  {
+    name: "bananas chips - 100gr.",
+    price: 90,
+    labels: [""]
+  },
+  {
+    name: "pasas de uva - 100gr.",
+    price: 30,
+    labels: [""]
+  },
+  {
+    name: "almendras nacionales - 100gr.",
+    price: 150,
+    labels: [""]
+  },
+  {
+    name: "mix tropical (Bananas chips, almendras, pasas de uva, castañas de cajú, maní tostado pelado, frutas abrillantadas) - 100gr.",
+    price: 70,
+    labels: [""]
+  },
+  {
+   name: "mix sin pasas de uva (nueces, castañas de caju, mani, almendras) - 100gr.",
+     price: 100,
+    labels: [""]
+  } 
+  ],
+
+  "cereales": [{
+    name: "copos de maíz - 100gr.",
+    price: 35,
+    labels: ["sin azúcar"]
+  },
+  {
+    name: "copos de maíz azucarados - 100gr.",
+    price: 45,
+    labels: [""]
+  },
+  {
+    name: "avena Instantánea - 500gr.",
+    price: 90,
+    labels: [""]
+  },
+  {
+    name: "avena tradicional - 500gr.",
+    price: 90,
+    labels: [""]
+  },
+  {
+    name: "almohaditas sabor: chocolate - 100gr.",
+    price: 55,
+    labels: [""]
+  },
+  {
+    name: "almohaditas sabor: avellana - 100gr.",
+    price: 55,
+    labels: [""]
+  },
+  {
+    name: "almohaditas sabor: frutilla - 100gr.",
+    price: 55,
+    labels: [""]
+  },
+  {
+    name: "aritos frutales - 100gr.",
+    price: 45,
+    labels: [""]
+  },
+  {
+    name: "bolitas de chocolate - 100gr.",
+    price: 50,
+    labels: [""]
+  },
+  {
+    name: "salvado de avena - 100gr.",
+    price: 17,
+    labels: [""]
+  }
+  ],
+
+  "harinas": [{
+    name: "harina integral - 250gr.",
+    price: 18,
+    labels: [""]
+  },
+  {
+    name: "harina de avena - 250gr.",
+    price: 35,
+    labels: [""]
+  },
+  {
+    name: "fécula de mandioca - 250gr.",
+    price: 35,
+    labels: [""]
+  },
+  {
+    name: "harina de garbanzo - 250gr.",
+    price: 30,
+    labels: [""]
+  }
+  ],
 }
+
 export default items; 
