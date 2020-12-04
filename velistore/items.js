@@ -567,5 +567,48 @@ let items = {
        labels: ["sin tacc"]
     } 
     ],
+
+ "cerro azul": [{
+    name: "alfajor de cacao relleno de vainilla - 250gr.",
+    price: 80,
+    labels: ["sin tacc", "sin azúcar", "vegano"]
+  } 
+  ],
+
+  "argen diet": [{
+    name: "sal sin sodio - 70gr.",
+    price: 180,
+    labels: [""]
+  } 
+  ],
+
+  "marbe": [{
+    name: "galletitas sabor Vainilla con chips de chocolate - 170gr.",
+    price: 75,
+    labels: [""]
+  },
+  {
+    name: "galletitas sabor Ciruela y pasas de uva - 170gr.",
+    price: 75,
+    labels: [""]
+  },
+  {
+    name: "galletitas sabor Chocolate con cáscara de Cacao - 170gr.",
+    price: 75,
+    labels: [""]
+  },
+  {
+    name: "galletitas sabor Frutos Rojos con arándanos - 170gr.",
+    price: 75,
+    labels: [""]
+  } 
+  ],
+
+  "sakanashi": [{
+    name: "salsa de Soja - 450cc.",
+    price: 150,
+    labels: [""]
+  }
+  ],
 }
 export default items; 
