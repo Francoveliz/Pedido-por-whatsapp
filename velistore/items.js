@@ -262,7 +262,7 @@ let items = {
   ],
 
 "granolas": [{
-    name: "mix clásica - avena arrollada, maní, pasas de uva, coco rallado, canela, jarabe demaíz y vainilla - 100gr.",
+    name: "mix clásica - avena arrollada, maní, pasas de uva, coco rallado, canela, jarabe de maíz y vainilla - 100gr.",
     price: 45,
     labels: [""]
   },
@@ -272,19 +272,19 @@ let items = {
     labels: [""]
   },
   {
-    name: "granola tradicional (Copos de maíz, Avena, Almendras, Maní, Manzana deshidratada y Girasol) - 100gr.",
+    name: "granola tradicional (copos de maíz, avena, almendras, maní, manzana deshidratada y girasol) - 100gr.",
     price: 60,
     labels: [""]
   },
     {
     name: "granola especial (avena, arándanos, pasas de uva, almendras,chía, quinoa, copos de arroz, nueces, castañas de cajú, manzana deshidratada, vainilla, jarabe de maíz) - 100g.",
-    price: 70
+    price: 70,
      labels: [""]
     }
   ],
 
   "frutos secos": [{
-    name: "mix Clásico - pasas negras, pasas rubias, almendras, nueces, avellanas, castañas de cajú, maní - 100gr.",
+    name: "mix clásico - pasas negras, pasas rubias, almendras, nueces, avellanas, castañas de cajú, maní - 100gr.",
     price: 70,
     labels: [""]
   },
@@ -309,7 +309,7 @@ let items = {
     labels: [""]
   },
   {
-    name: "mix tropical (Bananas chips, almendras, pasas de uva, castañas de cajú, maní tostado pelado, frutas abrillantadas) - 100gr.",
+    name: "mix tropical (bananas chips, almendras, pasas de uva, castañas de cajú, maní tostado pelado, frutas abrillantadas) - 100gr.",
     price: 70,
     labels: [""]
   },
