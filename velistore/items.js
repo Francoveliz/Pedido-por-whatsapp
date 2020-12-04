@@ -64,5 +64,6 @@ let items = {
     price: 65,
     labels: ["sin tacc"]
   }
-  ]
+  ],
+}
 export default items; 
