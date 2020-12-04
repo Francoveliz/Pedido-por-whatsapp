@@ -478,13 +478,18 @@ let items = {
 
  "orali": [{
     name: "soja texturizada sustituto pollo - 250gr.",
-    price: 85,
-    labels: [""]
+    price: 105,
+    labels: ["vegano"]
   },
+ {
+    name: "soja texturizada sustituto pollo - 1kg.",
+    price: 310,
+    labels: ["vegano"]
+   },
   {
     name: "soja texturizada sustituto carne - 250gr.",
-    price: 85,
-    labels: [""]
+    price: 105,
+    labels: ["vegano"]
   }
   ],
 
