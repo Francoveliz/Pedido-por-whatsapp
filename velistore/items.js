@@ -657,7 +657,7 @@ let items = {
       labels: ["sin tacc, vegano"]
       }
      ],
-     "kony"
+     "kony": [{
      name: "stevia liquida - 200cc.",
      price: 170,
       labels: [""]
@@ -685,5 +685,6 @@ let items = {
      name: "alfajor de Nuez relleno de dulce de leche - 50gr.",
      price: 65, 
      labels: ["sin tacc, bajo en sodio"] 
-     }]
+     }],
+ }
 export default items; 
