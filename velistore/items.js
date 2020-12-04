@@ -436,5 +436,44 @@ let items = {
     labels: ["sin sal"]
   }
   ],
+
+"reposteria": [{
+    name: "cacao amargo - 100gr.",
+    price: 50,
+    labels: [""]
+  },
+  {
+    name: "azúcar mascabo - 250gr.",
+    price: 55,
+    labels: [""]
+  },
+  {
+     name: "azúcar impalpable - 250gr.",
+      price: 40,
+      labels: [""]
+   },
+  {
+    name: "azúcar rubia - 250gr.",
+    price: 40,
+    labels: [""]
+  },
+  {
+    name: "coco rallado - 100gr.",
+    price: 40,
+    labels: [""]
+  },
+  {
+    name: "extracto de Malta - 100cc",
+    price: 130,
+    labels: [""]
+  }
+  ],
+
+  "san agustin": [{
+    name: "aceite de oliva extra virgen con aceite de girasol - 1/2L.",
+    price: 150,
+    labels: [""]
+  }
+  ],
 }
 export default items; 
