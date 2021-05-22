@@ -84,7 +84,7 @@ let items = {
   
  "doña pacha": [{
     name: "premezcla de pizza - 500gr.",
-    price: 145,
+    price: 150,
     labels: ["sin tacc"]
   }],
 
