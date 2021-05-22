@@ -213,7 +213,7 @@ let items = {
     labels: ["sin tacc", "vegano"]
   }],
 
-"alicante": [{
+   "alicante": [{
     name: "esencia de vainilla",
     price: 110,
     labels: ["sin tacc"]
@@ -225,19 +225,7 @@ let items = {
   }
   ],
 
-  "piache": [{
-    name: "galletitas endulzado con Stevia sabor banana y nuez",
-    price: 120,
-    labels: ["sin azúcar"]
-  },
-  {
-    name: "galletitas endulzado con Stevia sabor coco y avena",
-    price: 120,
-    labels: ["sin azúcar"]
-  }
-  ],
-
- "meltaim": [{
+   "meltaim": [{
     name: "snack sabor finas hierbas y queso",
     price: 90,
     labels: ["vegano"]
@@ -249,19 +237,7 @@ let items = {
   }
   ],
 
-  "granja del sol": [{
-    name: "medallón veggies de quinoa y espinaca",
-    price: 310,
-    labels: ["vegano"]
-  },
-  {
-    name: "medallón veggies de cebolla caramelizada y arroz yamani",
-    price: 310,
-    labels: ["vegano"]
-  }
-  ],
-
-"granolas": [{
+   "granolas": [{
     name: "mix clásica - avena arrollada, maní, pasas de uva, coco rallado, canela, jarabe de maíz y vainilla - 100gr.",
     price: 45,
     labels: [""]
@@ -295,7 +271,7 @@ let items = {
   },
   {
     name: "bananas chips - 100gr.",
-    price: 90,
+    price: 100,
     labels: [""]
   },
   {
