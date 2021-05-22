@@ -4,4 +4,5 @@ let items = {
     price: 75,
     labels: ["sin tacc"]
   }
+}
 export default items; 
