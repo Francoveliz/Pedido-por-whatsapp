@@ -580,17 +580,6 @@ let items = {
   }
   ],
 
-"cuarto creciente": [{
-    name: "mermelada sabor Arándanos - 300gr.",
-    price: 200,
-    labels: [""]
-  },
-  {
-    name: "mermelada sabor Frutos Rojos - 300gr.",
-    price: 200,
-    labels: [""]
-  }],
-
  "yin yang": [{
       name: "harina de garbanzos - 250gr.",
       price: 75,
