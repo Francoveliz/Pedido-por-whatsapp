@@ -677,5 +677,5 @@ let items = {
      price: , 
      labels: ["sin tacc, bajo en sodio"] 
      }],
-}
+
 export default items; 
