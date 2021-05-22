@@ -432,7 +432,7 @@ let items = {
   },
   {
     name: "maní sin sal - 100gr.",
-    price: 18,
+    price: 20,
     labels: ["sin sal"]
   }
   ],
@@ -469,23 +469,11 @@ let items = {
   }
   ],
 
-  "san agustin": [{
-    name: "aceite de oliva extra virgen con aceite de girasol - 1/2L.",
-    price: 150,
-    labels: [""]
-  }
-  ],
-
  "orali": [{
     name: "soja texturizada sustituto pollo - 250gr.",
     price: 105,
     labels: ["vegano"]
   },
- {
-    name: "soja texturizada sustituto pollo - 1kg.",
-    price: 310,
-    labels: ["vegano"]
-   },
   {
     name: "soja texturizada sustituto carne - 250gr.",
     price: 105,
@@ -666,30 +654,13 @@ let items = {
        labels: [""]
    }
    ],
-     "la francia": [{
-     name: "pan rústico doble integral - 560gr.", 
-     price: 180,
-     labels: [""]
-    },
-   { 
-      name: "pan rústico integral con calabaza - 560gr.",
-      price: 180,
-      labels: [""]
-      }
-     ],
+
     "levadin": [{
       name: "levadura nutricional - 100gr.",
       price: 85,
       labels: [""]
        }
        ],
-
-    "dos hermanos": [{ 
-      name: "gallatas de arroz slim integral clásicas.",
-      price: 75,
-      labels: ["sin tacc"]
-     }
-     ],
 
    "natural pop": [{
      name: "hummus instantaneo a base de harina de garbanzos- 100gr.",
@@ -706,7 +677,7 @@ let items = {
        ],
 
       "sales": [{
-      name: "Sal de himalaya - 100gr.",
+      name: "Sal de himalaya gruesa - 100gr.",
       price: 25,
         labels: [""]
        }
@@ -726,7 +697,7 @@ let items = {
       
     "celienergy": [{  
      name: "alfajor de Nuez relleno de dulce de leche - 50gr.",
-     price: 65, 
+     price: , 
      labels: ["sin tacc, bajo en sodio"] 
      }],
 }
