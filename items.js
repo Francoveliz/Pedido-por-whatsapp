@@ -5,6 +5,12 @@ let items = {
     labels: ["sin tacc"]
 }
 ]
-}
+},
+{
+    name: "galletita rellena frutilla - 105gr.",
+    price: 75,
+    labels: ["sin tacc"]
+  }
+
 
 export default items; 
