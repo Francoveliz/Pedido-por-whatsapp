@@ -189,21 +189,9 @@ let items = {
   ],
 
   "risky dit": [{
-    name: "tostadas de arroz Sin sal",
+    name: "tostadas de arroz Sin sal - SIN STOCK",
     price: 80,
     labels: ["sin tacc"]
-  }
-  ],
-
-  "wakas": [{
-    name: "pastas multicereal de quinoa - 250gr.",
-    price: 145,
-    labels: ["sin tacc", "vegano"]
-  },
-  {
-    name: "pastas multicereal de chia - 250gr.",
-    price: 145,
-    labels: ["sin tacc", "vegano"]
   }
   ],
 
