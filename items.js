@@ -86,6 +86,73 @@ let items = {
   }
   ],
 
+  "smams": [{
+    name: "galletita rellena chocolate - 105gr.",
+    price: 75,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "galletita rellena frutilla - 105gr.",
+    price: 75,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "galletita rellena vainilla - 105gr.",
+    price: 75,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "crackers sin sal - 150gr.",
+    price: 90,
+    labels: ["sin tacc", " sin sal"]
+  },
+  {
+    name: "crackers clásicas - 150gr.",
+    price: 90,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "polvoron vainilla - 130gr.",
+    price: 85,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "polvoron coco - 130gr.",
+    price: 85,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "polvoron limón - 130gr.",
+    price: 85,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "galletitas de vainilla con chips de chocolate - 180gr.",
+    price: 120,
+    labels: ["sin tacc"]
+  },
+  {
+    name: "galletitas de pepas - 150gr.",
+    price: 65,
+    labels: ["sin tacc"]
+  },
+   {
+      name: "galletitas de vainilla colegial - 150gr.",
+      price: 65,
+      labels: ["sin tacc"]
+    },
+  {
+    name: "galletitas de vainilla con chips de chocolate sin azúcar- 150gr.",
+    price: 130,
+    labels: [""]
+  },
+  {
+    name: "galletitas de vainilla colegial - 150gr.",
+    price: 65,
+    labels: ["sin tacc"]
+  }
+  ],
+
   "vrink": [{
     name: "leche de almendras original - 1L",
     price: 200,
@@ -563,14 +630,14 @@ let items = {
 
    "natural pop": [{
      name: "hummus instantaneo a base de harina de garbanzos- 100gr.",
-     price: 75,
+     price: 80,
       labels: ["sin tacc, vegano"]
       }
      ],
 
      "kony" : [{
      name: "stevia liquida - 200cc.",
-     price: 170,
+     price: 150,
       labels: [""]
       } 
        ],
@@ -582,21 +649,9 @@ let items = {
        }
        ],
 
-     "riera": [{
-      name: "tostadas de arroz clásicas",
-      price: 100,
-      labels: ["sin tacc"]
-     },
-     { 
-      name: "tostadas de arroz sin sal",
-      price: 100,
-      labels: ["sin tacc"]
-    }
-     ],
-      
     "celienergy": [{  
      name: "alfajor de Nuez relleno de dulce de leche - 50gr.",
-     price: 10, 
+     price: , 
      labels: ["sin tacc, bajo en sodio"] 
      }]
 }
