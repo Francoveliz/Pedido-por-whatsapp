@@ -5,6 +5,6 @@ let items = {
     labels: ["sin tacc"]
   }
   ]
-},
+}
 
 export default items; 
