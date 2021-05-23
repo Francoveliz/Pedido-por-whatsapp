@@ -1,5 +1,4 @@
 let items = {
-  
  "doña pacha": [{
     name: "premezcla de pizza - 500gr.",
     price: 180,
@@ -20,23 +19,6 @@ let items = {
     name: "premezcla de bizcochuelo vainilla.",
     price: 125,
     labels: ["sin tacc"]
-  }
-  ],
-
-  "cerealsol": [{
-    name: "Cereal sabor miel - 130gr - SIN STOCK.",
-    price: 60,
-    labels: ["sin tacc", "vegano"]
-  },
-  {
-    name: "Cereal sabor vainilla - 130gr - SIN STOCK.",
-    price: 60,
-    labels: ["sin tacc", "vegano"]
-  },
-  {
-    name: "Cereal sabor chocolate - 130gr - SIN STOCK.",
-    price: 60,
-    labels: ["sin tacc", "vegano"]
   }
   ],
 
@@ -107,7 +89,7 @@ let items = {
     price: 90,
     labels: ["sin tacc"]
   },
-   {
+  {
       name: "galletitas de vainilla colegial - 150gr - SIN STOCK.",
       price: 90,
       labels: ["sin tacc"]
@@ -115,7 +97,7 @@ let items = {
   ],
 
   "vrink": [{
-    name: "leche de almendras original - 1L - SIN STOCK",
+    name: "leche de almendras original - 1L - SIN STOCK.",
     price: 200,
     labels: ["sin tacc"]
   },
@@ -125,7 +107,7 @@ let items = {
     labels: ["sin tacc"]
   },
   {
-    name: "leche de almendras sabor chocolate - 1L - SIN STOCK",
+    name: "leche de almendras sabor chocolate - 1L - SIN STOCK.",
     price: 200,
     labels: ["sin tacc"]
   }
@@ -146,7 +128,7 @@ let items = {
   ],
 
   "risky dit": [{
-    name: "tostadas de arroz Sin sal - SIN STOCK",
+    name: "tostadas de arroz sin sal - SIN STOCK",
     price: 80,
     labels: ["sin tacc"]
   }
@@ -154,13 +136,13 @@ let items = {
 
   "maní king": [{
     name: "pasta de maní natural sin azúcar/sin sal - 485gr - SIN STOCK. ",
-    price: 270,
+    price: 330,
     labels: ["sin tacc", "vegano"]
   }
   ],
 
    "alicante": [{
-    name: "esencia de vainilla 100cc",
+    name: "esencia de vainilla 100cc.",
     price: 120,
     labels: ["sin tacc"]
   },
