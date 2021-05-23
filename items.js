@@ -217,7 +217,7 @@ let items = {
    "alicante": [{
     name: "esencia de vainilla",
     price: 50,
-    labels: ["sin tacc"]
+    labels: ["sin tacc-	Sin stock"]
   },
   {
     name: "coco rallado - 50gr.",
