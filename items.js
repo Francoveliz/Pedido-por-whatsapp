@@ -3,7 +3,7 @@ let items = {
     name: "galletita rellena chocolate - 105gr.",
     price: 75,
     labels: ["sin tacc"]
-  }],
+  },
   {
     name: "galletita rellena frutilla - 105gr.",
     price: 75,
@@ -490,7 +490,8 @@ let items = {
     name: "aceite de coco neutro - 250ml.",
     price: 300,
     labels: ["sin tacc"]
-  }],
+  }
+  ],
 
 "dimax": [{
     name: "polvo para hornear - 200gr.",
@@ -590,7 +591,8 @@ let items = {
     name: "mermelada sabor Frutos Rojos - 300gr.",
     price: 200,
     labels: [""]
-  }],
+  }
+  ],
 
  "yin yang": [{
       name: "harina de garbanzos - 250gr.",
@@ -601,19 +603,22 @@ let items = {
        name: "semillas pop (Sésamo,chía,lino,azucar organica)",
       price: 50,
       labels: ["sin tacc"]
-     }],
+     }
+     ],
 
       "levex": [{
       name: "Levadura instantanea - 10gr.",
       price: 25,
       labels: ["sin tacc"]
-       }],
+       }
+       ],
 
   "néctar": [{
       name: "miel de abejas - 340gr.",
       price: 230,
        labels: ["sin tacc"]
-       }],
+       }
+       ],
 
       "vegetalex": [{
        name: "medallón de verduras - 300gr.",
@@ -676,6 +681,7 @@ let items = {
      name: "alfajor de Nuez relleno de dulce de leche - 50gr.",
      price: , 
      labels: ["sin tacc, bajo en sodio"] 
-     }],
+     }
+     ],
 
 export default items; 
