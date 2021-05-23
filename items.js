@@ -140,6 +140,12 @@ let items = {
     labels: ["sin tacc", "vegano"]
   }
   ],
+  "dulkre": [{
+    name: "edulcorante bajo en calorias clásico - 50 sobres. ",
+    price: 110,
+    labels: ["sin tacc"]
+  }
+  ],
 
    "alicante": [{
     name: "esencia de vainilla 100cc.",
