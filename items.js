@@ -258,6 +258,14 @@ let items = {
     labels: [""]
   }
   ],
+   
+   "emilia":[{
+    name: "fideos con harina integral - 500gr",
+    price: 130,
+    labels: [""]
+   }
+   ],
+   
 
   "harinas": [{
     name: "harina integral - 1kg - SIN STOCK.",
