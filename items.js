@@ -260,7 +260,7 @@ let items = {
   ],
 
   "harinas": [{
-    name: "harina integral - 1kg.",
+    name: "harina integral - 1kg - SIN STOCK.",
     price: 70,
     labels: [""]
   },
