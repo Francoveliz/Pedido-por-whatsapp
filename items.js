@@ -17,20 +17,10 @@ let items = {
   }
   ],
 
-  "julicroc": [{
-    name: "tutucas - 90gr - SIN STOCK.",
-    price: 75,
-    labels: ["sin tacc"]
-  },
-  {
-    name: "maní tostado - 100gr - SIN STOCK.",
-    price: 60,
-    labels: ["sin tacc"]
-  },
-  {
-    name: "papás fritas - 70gr - SIN STOCK.",
-    price: 55,
-    labels: ["sin tacc"]
+  "loma verde": [{
+    name: "milanesas de soja" - 300gr.",
+    price: 150,
+    labels: [""]
   }
   ],
 
