@@ -18,7 +18,7 @@ let items = {
   ],
 
   "loma verde": [{
-    name: "milanesas de soja" - 300gr.",
+    name: "milanesas de soja - 300gr.",
     price: 150,
     labels: [""]
   }
