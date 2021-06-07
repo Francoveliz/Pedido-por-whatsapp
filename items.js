@@ -11,11 +11,6 @@ let items = {
     labels: ["sin tacc"]
   }],
   "delicel": [{
-    name: "premezcla de bizcochuelo chocolate - SIN STOCK.",
-    price: 125,
-    labels: ["sin tacc"]
-  },
-  {
     name: "premezcla de bizcochuelo vainilla.",
     price: 125,
     labels: ["sin tacc"]
