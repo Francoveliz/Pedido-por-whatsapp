@@ -429,16 +429,6 @@ let items = {
     name: "galletitas sabor Algarroba, quinua y amaranto - 180gr.",
     price: 75,
     labels: [""]
-  },
-  {
-    name: "galletitas sabor Chocolate con cáscara de Cacao - 170gr.",
-    price: 75,
-    labels: [""]
-  },
-  {
-    name: "galletitas sabor Frutos Rojos con arándanos - 170gr.",
-    price: 75,
-    labels: [""]
   } 
   ],
 
