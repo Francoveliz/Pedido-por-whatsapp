@@ -319,7 +319,7 @@ let items = {
   {
     name: "maní pelado sin sal - 100gr.",
     price: 25,
-    labels: ["sin sal"]
+    labels: [""]
   }, 
   {
    name: "maní vaina (con cáscara) - 100gr.",
