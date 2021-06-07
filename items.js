@@ -182,7 +182,7 @@ let items = {
     labels: [""]
   },
   {
-    name: "almendras nacionales - 100gr.",
+    name: "almendras nacionales - 100gr -SIN STOCK.",
     price: 150,
     labels: [""]
   },
