@@ -317,7 +317,7 @@ let items = {
     labels: [""]
   },
   {
-    name: "maní sin sal - 100gr.",
+    name: "maní pelado sin sal - 100gr.",
     price: 25,
     labels: ["sin sal"]
   }, 
