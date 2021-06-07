@@ -40,11 +40,6 @@ let items = {
   ],
 
   "smams": [{
-    name: "galletita rellena chocolate - 105gr - SIN STOCK.",
-    price: 100,
-    labels: ["sin tacc"]
-  },
-  {
     name: "galletita rellena frutilla - 105gr - SIN STOCK.",
     price: 100,
     labels: ["sin tacc"]
@@ -107,9 +102,9 @@ let items = {
     labels: ["sin tacc"]
   },
   {
-    name: "leche de almendras sabor chocolate - 1L - SIN STOCK.",
-    price: 200,
-    labels: ["sin tacc"]
+    name: "leche de avena- 1L.",
+    price: 270,
+    labels: [""]
   }
   ],
 
@@ -122,7 +117,7 @@ let items = {
 
   "macrozen": [{
     name: "sal marina gruesa - 500gr.",
-    price: 125,
+    price: 130,
     labels: ["sin tacc"]
   }
   ],
@@ -214,13 +209,13 @@ let items = {
   ],
 
   "cereales": [{
-    name: "copos de maíz sin azúcar - 100gr.",
+    name: "copos de maíz sin azúcar - TRES ARROYOS - 100gr.",
     price: 30,
     labels: [""]
   },
   {
-    name: "copos de maíz azúcarados - 100gr.",
-    price: 50,
+    name: "copos de maíz azúcarados - TRES ARROYOS - 100gr.",
+    price: 35,
     labels: [""]
   },
   {
@@ -235,7 +230,7 @@ let items = {
   },
   {
     name: "almohaditas sabor: chocolate - 100gr.",
-    price: 60,
+    price: 70,
     labels: [""]
   },
   {
@@ -274,8 +269,8 @@ let items = {
    
 
   "harinas": [{
-    name: "harina integral - 1kg - SIN STOCK.",
-    price: 70,
+    name: "harina integral - 1kg.",
+    price: 90,
     labels: [""]
   },
   {
@@ -294,7 +289,7 @@ let items = {
     labels: [""]
   },
   {
-    name: "harina de arroz - 500gr.",
+    name: "harina de arroz - 500gr - SIN STOCK.",
     price: 45,
     labels: [""]
   }
@@ -307,16 +302,16 @@ let items = {
   },
   {
     name: "girasol pelado - 100gr.",
-    price: 35,
+    price: 40,
     labels: [""]
   },
   {
     name: "lino - 100gr.",
-    price: 20,
+    price: 25,
     labels: [""]
   },
   {
-    name: "mix - 100gr - SIN STOCK.",
+    name: "mix - 100gr.",
     price: 30,
     labels: [""]
   },
@@ -338,9 +333,14 @@ let items = {
   },
   {
     name: "maní sin sal - 100gr.",
-    price: 20,
+    price: 25,
     labels: ["sin sal"]
-  }
+  }, 
+  {
+   name: "maní vaina (con cáscara) - 100gr.",
+    price: 26,
+    labels: [""] 
+   }
   ],
 
 "reposteria": [{
@@ -367,11 +367,6 @@ let items = {
     name: "coco rallado - 100gr.",
     price: 45,
     labels: [""]
-  },
-  {
-    name: "extracto de Malta - 100cc",
-    price: 150,
-    labels: [""]
   }
   ],
 
@@ -397,8 +392,8 @@ let items = {
   ],
 
   "prado del rey": [{
-    name: "aceite de oliva extra virgen - 500ml - SIN STOCK.",
-    price: 250,
+    name: "aceite de oliva extra virgen - 500ml.",
+    price: 260,
     labels: [""]
   } 
   ],
@@ -409,12 +404,7 @@ let items = {
     labels: ["sin tacc"]
   }],
 
-"dimax": [{
-    name: "polvo para hornear - 200gr - SIN STOCK.",
-    price: 125,
-    labels: ["sin tacc"]
-  },
-  {
+  "dimax": [{
     name: "Premezcla universal - 1Kg.",
     price: 220,
     labels: ["sin tacc"]
@@ -442,13 +432,6 @@ let items = {
     labels: ["sin tacc"]
   }
   ], 
-   
- "cerro azul": [{
-    name: "alfajor de cacao relleno de vainilla - SIN STOCK.",
-    price: 120,
-    labels: ["sin tacc", "sin azúcar", "vegano"]
-  } 
-  ],
 
   "argen diet": [{
     name: "sal sin sodio - 70gr.",
@@ -458,12 +441,7 @@ let items = {
   ],
 
   "marbe": [{
-    name: "galletitas sabor Vainilla con chips de chocolate - 170gr - SIN STOCK.",
-    price: 75,
-    labels: [""]
-  },
-  {
-    name: "galletitas sabor Ciruela y pasas de uva - 170gr - SIN STOCK.",
+    name: "galletitas sabor Algarroba, quinua y amaranto - 180gr.",
     price: 75,
     labels: [""]
   },
@@ -480,39 +458,39 @@ let items = {
   ],
 
   "sakanashi": [{
-    name: "salsa de Soja - 450cc. SIN STOCK",
-    price: 150,
+    name: "salsa de Soja - 450cc.",
+    price: 170,
     labels: [""]
   }
   ],
 
-"cuarto creciente": [{
-    name: "mermelada sabor Arándanos - 300gr - SIN STOCK.",
-    price: 200,
-    labels: [""]
-  },
-  {
-    name: "mermelada sabor Frutos Rojos - 300gr - SIN STOCK.",
-    price: 200,
+"algas nory": [{
+    name: "algas nory - 100gr.",
+    price: 250,
     labels: [""]
   }],
 
  "yin yang": [{
       name: "harina de garbanzos - 250gr.",
-      price: 75,
+      price: 85,
+      labels: ["sin tacc"]
+       }, 
+       {
+       name: "harina de soja - 500gr.",
+      price: 110,
       labels: ["sin tacc"]
        }
        ],
 
       "levex": [{
       name: "Levadura instantanea - 10gr.",
-      price: 25,
+      price: 35,
       labels: ["sin tacc"]
        }],
 
   "néctar": [{
-      name: "miel de abejas - 340gr.",
-      price: 290,
+      name: "miel de abejas - 340gr. - SIN STOCK",
+      price: 320,
        labels: ["sin tacc"]
        }],
 
